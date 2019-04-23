@@ -75,5 +75,5 @@ function my_account_menu_order() {
  	);
  	return $menuOrder;
 }
- add_filter ( 'woocommerce_account_menu_items', 'my_account_menu_order' );
+add_filter ( 'woocommerce_account_menu_items', 'my_account_menu_order' );
 ?>
