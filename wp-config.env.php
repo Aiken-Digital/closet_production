@@ -7,8 +7,8 @@
 				'ssl'    => true,
 		],
 		'staging'     => [
-				'domain' => 'closet.test',
-				'path'   => '',
+				'domain' => 'fixxstaging.com',
+				'path'   => 'closet',
 				'ssl'    => false,
 		],
 		'development' => [
