@@ -1,0 +1,227 @@
+.trackfree-table {
+    width: 100%;
+}
+.trackfree-table tr {
+    background: #FFF;
+}
+.trackfree-table tr:nth-child(odd){ 
+    background: #FFF;
+}
+.trackfree-table tr:nth-child(even){
+    background: #f8f8f8;
+}
+.trackfree-table td {
+    padding: 8px;
+}
+
+.trackfree-main-box {
+    margin-bottom: 30px;
+    border-bottom: 1px dotted #B7ABAC;
+}
+
+.trackfree-description {
+    color: #aaa;
+    font-style: italic;
+    font-size: 13px !important;
+}
+
+.trackfree-margin-top-5 {
+    margin-top: 5px;
+}
+
+.trackfree-line-border {
+    margin: 20px 0;
+    border-bottom: 1px dotted #B7ABAC;
+}
+
+/* Order details page */
+.trackfree-tracking-number {
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #999999;
+}
+
+.trackfree-status {
+    margin-top: 10px;
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #444444;
+}
+
+.tf-status {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #444444;
+}
+
+.trackfree-feedback {
+    font-family: OpenSans;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #999999;
+}
+
+.trackfree-shipment-date {
+    font-family: OpenSans;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #b5b7bd;
+}
+
+.trackfree-shipment-description {
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #444a59;
+}
+
+.trackfree-shipment-address {
+    color: #b5b7bd;
+}
+
+.trackfree-scheduled {
+    margin-top: 10px;
+    opacity: 0.72;
+    background-color: #e5f5fa;
+    box-shadow: inset 4px 0 0 0 #00a0d2;
+}
+
+.trackfree-delivered {
+    margin-top: 10px;
+    opacity: 0.72;
+    background-color: #e5f5fa;
+    box-shadow: inset 4px 0 0 0 green;
+}
+
+.trackfree-exception {
+    margin-top: 10px;
+    opacity: 0.72;
+    background-color: #e5f5fa;
+    box-shadow: inset 4px 0 0 0 red;
+}
+
+.trackfree-scheduled-delivery-o {
+    padding: 10px 20px;
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    color: #444444;
+}
+
+.trackfree-tab-content {
+    display: none;
+}
+
+.trackfree-shipment-content {
+    margin-top: 10px;
+}
+
+.trackfree_active {
+    display: inherit;
+}
+
+.trackfree-show-more-container {
+    display: none;
+}
+
+.trackfree-modal-box {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    background: white;
+    border-bottom: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-clip: padding-box;
+}
+
+.trackfree-modal-box header,
+.trackfree-modal-box .modal-header {
+    padding: 1.25em 1.5em;
+    border-bottom: 1px solid #ddd;
+}
+
+.trackfree-modal-box header h3,
+.trackfree-modal-box header h4,
+.trackfree-modal-box .modal-header h3,
+.trackfree-modal-box .modal-header h4 { margin: 0; }
+
+.trackfree-modal-box .modal-body {
+    padding: 2em 1.5em;
+    overflow-y: auto; height: 300px;
+}
+
+.trackfree-modal-box footer,
+.trackfree-modal-box .modal-footer {
+    padding: 1em;
+    border-top: 1px solid #ddd;
+    background: rgba(0, 0, 0, 0.02);
+    text-align: right;
+}
+
+.trackfree-modal-overlay {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+
+a.trackfree-close {
+    float: right;
+    line-height: 1;
+    font-size: 1.5em;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    text-decoration: none;
+    color: #bbb;
+}
+
+a.trackfree-close:hover {
+    color: #222;
+    -webkit-transition: color 1s ease;
+    -moz-transition: color 1s ease;
+    transition: color 1s ease;
+}
+
+@media (min-width: 20em) {
+    .trackfree-modal-box { width: 50%; }
+}

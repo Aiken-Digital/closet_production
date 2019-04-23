@@ -1,0 +1,148 @@
+# Translation of Plugins - WP Reset &#8211; Fastest WordPress Reset Plugin - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - WP Reset &#8211; Fastest WordPress Reset Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-28 18:12:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - WP Reset &#8211; Fastest WordPress Reset Plugin - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webfactoryltd.com/"
+msgstr "https://www.webfactoryltd.com/"
+
+#. Author of the plugin/theme
+msgid "WebFactory Ltd"
+msgstr "WebFactory Ltd"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wp-reset/"
+msgstr "https://wordpress.org/plugins/wp-reset/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Reset"
+msgstr "WP Reset"
+
+#: wp-reset.php:286
+msgid "Type in \"reset\""
+msgstr "Gib „reset“ ein"
+
+#: wp-reset.php:281
+msgid "Reset"
+msgstr "Reset"
+
+#: wp-reset.php:186
+msgid "Click \"Cancel\" to abort."
+msgstr "Klicke „Abbrechen“ zum Abbrechen."
+
+#: wp-reset.php:255
+msgid "Resetting will delete:"
+msgstr "Ein Reset wird löschen:"
+
+#. Description of the plugin/theme
+msgid "Reset the site to default installation values without modifying any files. Deletes all customizations and content."
+msgstr "Setze die Website auf die Standardinstallation zurück, ohne dabei eine einzige Datei zu verändern. Löscht alle Anpassungen und Inhalte."
+
+#: wp-reset.php:283
+msgid "While doing work on your site we recommend installing the free <a href=\"%s\" target=\"_blank\">UnderConstructionPage</a> plugin. It helps with SEO and builds trust with visitors."
+msgstr "Während du an deiner Website arbeitest, empfehlen wir die Installation des kostenlosen Plugins <a href=\"%s\" target=\"_blank\">UnderConstructionPage</a>. Es hilft mit SEO und baut Vertrauen zu den Besuchern auf."
+
+#: wp-reset.php:276
+msgid "WP Reset plugin will be reactivated"
+msgstr "Das Plugin WP Reset wird reaktiviert"
+
+#: wp-reset.php:275
+msgid "you will be logged out, automatically logged in and taken to the admin dashboard"
+msgstr "Du wirst abgemeldet, automatisch angemeldet und zum Admin-Dashboard gebracht"
+
+#: wp-reset.php:273
+msgid "everything will be reset; see bullets above for details"
+msgstr "Alles wird zurückgesetzt, siehe Punkte oben für Details"
+
+#: wp-reset.php:270
+msgid "What happens when I click the Reset button?"
+msgstr "Was passiert, wenn ich auf den Reset-Button drücke?"
+
+#: wp-reset.php:267
+msgid "logged in user \"%s\" will be restored with the current password"
+msgstr "Angemeldeter Benutzer „%s“ wird mit dem aktuellen Passwort wiederhergestellt"
+
+#: wp-reset.php:266
+msgid "site title, WordPress address, site address, site language and search engine visibility settings"
+msgstr "Website-Titel, WordPress-Adresse, Website-Adresse, Einstellungen für Website-Sprache und Suchmaschinen-Sichtbarkeit"
+
+#: wp-reset.php:265
+msgid "no files are touched; plugins, themes, uploads - everything stays"
+msgstr "Keine Dateien werden berührt, Plugin, Themes, hochgeladene Dateien - alles bleibt"
+
+#: wp-reset.php:264
+msgid "media files - they'll remain in the <i>wp-uploads</i> folder but will no longer be listed under Media"
+msgstr "Mediendateien - diese bleiben im <i>wp-uploads</i>-Ordner, aber werden nicht länger unter Medien aufgeführt"
+
+#: wp-reset.php:262
+msgid "Resetting will not delete:"
+msgstr "Ein Reset löscht nicht:"
+
+#: wp-reset.php:259
+msgid "all custom database tables that have the same prefix \"%s\" as default tables in this installation"
+msgstr "Alle individuellen Datenbanktabellen, die denselben Präfix „%s“ wie die Standard-Tabellen dieser Installation haben"
+
+#: wp-reset.php:258
+msgid "all default WP database tables"
+msgstr "Alle Standard-WP-Datenbank-Tabellen"
+
+#: wp-reset.php:257
+msgid "all posts, pages, custom post types, comments, media entries, users"
+msgstr "Alle Beiträge, Seiten, Individuellen Inhaltstypen, Kommentare, Medieneinträge, Benutzer"
+
+#: wp-reset.php:254
+msgid "Please read carefully before proceeding. There is NO UNDO!"
+msgstr "Bitte sorgfältig lesen bevor du fortfährst. Es gibt KEIN ZURÜCK!"
+
+#: wp-reset.php:226
+msgid "Something went wrong. Please refresh the page and try again."
+msgstr "Etwas ging schief. Bitte die Seite neu laden und erneut versuchen."
+
+#: wp-reset.php:224
+msgid "<b>Invalid confirmation code.</b> Please type \"reset\" in the confirmation field."
+msgstr "<b>Ungültiger Bestätigungscode.</b> Bitte gib „reset“ in das Bestätigungsfeld ein."
+
+#: wp-reset.php:185
+msgid "Clicking \"OK\" will reset your site to default values. All content will be lost. There is NO UNDO."
+msgstr "Ein Klick auf „OK“ wird deine Website auf die Standardwerte zurücksetzen. Alle Inhalte gehen verloren. Es gibt KEIN ZURÜCK."
+
+#: wp-reset.php:184
+msgid "Invalid confirmation. Please type \"reset\" in the confirmation field."
+msgstr "Ungültige Bestätigung. Bitte gib „reset“ in das Bestätigungsfeld ein."
+
+#: wp-reset.php:178
+msgid "<b>Site has been reset</b> to default settings. User \"%s\" was restored with the password unchanged."
+msgstr "Die Website wurde auf die Standardeinstellungen <b>zurückgesetzt</b>. Der Benutzer „%s“ wurde mit unverändertem Passwort wiederhergestellt."
+
+#: wp-reset.php:137
+msgid "Visit our site to get more great plugins"
+msgstr "Besuch unsere Website für weitere großartige Plugins"
+
+#: wp-reset.php:137
+msgid "Visit WP Reset page for more info"
+msgstr "Besuche die WP-Reset-Seite für weitere Informationen"
+
+#: wp-reset.php:111 wp-reset.php:287
+msgid "Reset WordPress"
+msgstr "WordPress-Reset"
+
+#: wp-reset.php:272
+msgid "you will have to confirm the action one more time because there is NO UNDO"
+msgstr "Du musst die Aktion nochmals bestätigen, denn es gibt KEIN ZURÜCK"
+
+#: wp-reset.php:274
+msgid "site title, WordPress address, site address, site language, search engine visibility and current user will be restored"
+msgstr "Website-Titel, WordPress-Adresse, Website-Adresse, Website-Sprache, Suchmaschinen-Sichtbarkeit und aktueller Benutzer werden wiederhergestellt"
+
+#: wp-reset.php:282
+msgid "Type <b>reset</b> in the confirmation field to confirm the reset and then click the \"Reset WordPress\" button. <b>There is NO UNDO. No backups are made by this plugin.</b>"
+msgstr "Gib <b>reset</b> in das Bestätigungsfeld ein, um den Reset zu bestätigen und klicke dann den Button „WordPress-Reset“. <b>Es gibt KEIN ZURÜCK. Dieses Plugin macht keine Backups.</b>"

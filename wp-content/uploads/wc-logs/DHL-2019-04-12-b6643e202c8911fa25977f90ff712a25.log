@@ -1,0 +1,38 @@
+04-12-2019 @ 07:58:54 - Delete Transient - Access Token
+04-12-2019 @ 08:00:32 - Get Transient - Access Token
+04-12-2019 @ 08:00:32 - The "Cliend Id" or "Client Secret" is empty.
+04-12-2019 @ 08:00:36 - Get Transient - Access Token
+04-12-2019 @ 08:00:36 - The "Cliend Id" or "Client Secret" is empty.
+04-12-2019 @ 08:00:38 - Get Transient - Access Token
+04-12-2019 @ 08:00:38 - The "Cliend Id" or "Client Secret" is empty.
+04-12-2019 @ 08:00:39 - Get Transient - Access Token
+04-12-2019 @ 08:00:39 - The "Cliend Id" or "Client Secret" is empty.
+04-12-2019 @ 08:00:45 - Delete Transient - Access Token
+04-12-2019 @ 08:00:50 - Get Transient - Access Token
+04-12-2019 @ 08:00:50 - Authorize User - Client ID: developer@fixxdigital.com
+04-12-2019 @ 08:00:50 - Authorization URL: https://api-qa.dhlecommerce.com/account/v1/auth/accesstoken
+04-12-2019 @ 08:00:50 - Authorization Response: 401
+04-12-2019 @ 08:00:50 - Authentication failed: Please, check client ID and secret in the DHL shipping settings
+04-12-2019 @ 08:16:12 - Delete Transient - Access Token
+04-12-2019 @ 08:16:23 - Get Transient - Access Token
+04-12-2019 @ 08:16:23 - Authorize User - Client ID: v62_VCSiU4dV6R
+04-12-2019 @ 08:16:23 - Authorization URL: https://api.dhlecommerce.com/account/v1/auth/accesstoken
+04-12-2019 @ 08:16:23 - Authorization Response: 401
+04-12-2019 @ 08:16:23 - Authentication failed: Please, check client ID and secret in the DHL shipping settings
+04-12-2019 @ 08:18:16 - Delete Transient - Access Token
+04-12-2019 @ 08:18:21 - Delete Transient - Access Token
+04-12-2019 @ 08:20:17 - Delete Transient - Access Token
+04-12-2019 @ 08:20:23 - Get Transient - Access Token
+04-12-2019 @ 08:20:23 - Authorize User - Client ID: e9ed82a8-4237-4185-8e36-47264aa9e718
+04-12-2019 @ 08:20:23 - Authorization URL: https://api-qa.dhlecommerce.com/account/v1/auth/accesstoken
+04-12-2019 @ 08:20:23 - Authorization Response: 200
+04-12-2019 @ 08:20:23 - Set Transient - Access Token
+04-12-2019 @ 08:20:23 - Connection Successful!
+04-12-2019 @ 08:27:02 - Delete Transient - Access Token
+04-12-2019 @ 08:30:37 - Get Transient - Access Token
+04-12-2019 @ 08:30:37 - Authorize User - Client ID: e9ed82a8-4237-4185-8e36-47264aa9e718
+04-12-2019 @ 08:30:37 - Authorization URL: https://api-qa.dhlecommerce.com/account/v1/auth/accesstoken
+04-12-2019 @ 08:30:37 - Authorization Response: 200
+04-12-2019 @ 08:30:37 - Set Transient - Access Token
+04-12-2019 @ 08:30:37 - Connection Successful!
+04-12-2019 @ 08:39:54 - Delete Transient - Access Token

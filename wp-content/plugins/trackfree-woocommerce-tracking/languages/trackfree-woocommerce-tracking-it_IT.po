@@ -1,0 +1,428 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TrackFree it\n"
+"POT-Creation-Date: 2018-06-04 15:13+0530\n"
+"PO-Revision-Date: 2019-02-08 11:27+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "View tracking"
+msgstr "Vedi la spedizione"
+
+msgid "Add new"
+msgstr "Nuova"
+
+msgid "Tracking Number"
+msgstr "Numero di identificazione"
+
+msgid "Invalid tracking number"
+msgstr "Numero di tracciamento non valido"
+
+msgid "Courier Name"
+msgstr "Nome del corriere"
+
+msgid "Add new tracking"
+msgstr "Aggiungi un nuovo tracciamento"
+
+msgid "Connect with TrackFree"
+msgstr "Connetti con TrackFree"
+
+msgid "Shipment Status"
+msgstr "Stato della spedizione"
+
+msgid "Close"
+msgstr "Vicino"
+
+msgid "Delete"
+msgstr "Elimina"
+
+msgid "STATUS"
+msgstr "STATO"
+
+msgid "FEEDBACK"
+msgstr "RISPOSTA"
+
+msgid "Satisfied"
+msgstr "Soddisfatto"
+
+msgid "Not satisfied"
+msgstr "Non soddisfatto"
+
+msgid "Change"
+msgstr "Modificare"
+
+msgid "Delivered on"
+msgstr "Consegnato"
+
+msgid "Estimated delivery on"
+msgstr "Consegna stimata il"
+
+msgid "Shipping Activity"
+msgstr "Attività di spedizione"
+
+msgid "Contact Carrier"
+msgstr "Corriere"
+
+msgid "See all shipping activity"
+msgstr "Vedi tutte le attività di spedizione"
+
+msgid "Hide all shipping activity"
+msgstr "Nascondi tutte le attività di spedizione"
+
+msgid "No track details available"
+msgstr "Nessun dettaglio di tracciabilità disponibile"
+
+msgid "No estimated delivery date"
+msgstr "Nessuna data di consegna stimata"
+
+msgid "TrackFree Settings"
+msgstr "Impostazioni TrackFree"
+
+msgid "Shipment details added successfully"
+msgstr "Dettagli della spedizione aggiunti con successo"
+
+msgid "This tracking does not exist"
+msgstr "Questo monitoraggio non esiste"
+
+msgid "This tracking number already exists"
+msgstr "Questo numero di tracciamento  già esiste"
+
+msgid "You can add only up to 3 shipments"
+msgstr "È possibile aggiungere solo fino a 3 spedizioni"
+
+msgid "Invalid user"
+msgstr "Utente non valido"
+
+msgid "Your credit limit is over. Please upgrade"
+msgstr "Il tuo limite di credito è terminato. Si prega di aggiornare"
+
+msgid "Preferred couriers updated successfully"
+msgstr "Corrieri preferiti aggiornati correttamente"
+
+msgid "Your app is not verified. Click verify link and activate your app in your mail. Please refresh this page if you have already verified."
+msgstr "La tua app non è stata verificata. Fai clic sul link verifica e attiva la tua app nella tua posta. Si prega di aggiornare questa pagina se è già stata verificata."
+
+msgid "Settings"
+msgstr "Impostazioni"
+
+msgid "View and update basic settings"
+msgstr "Visualizza e aggiorna le impostazioni di base"
+
+msgid "Preferred Courier Name"
+msgstr "Nome del corriere preferito"
+
+msgid "Select couriers you often use for more accurate courier auto-detection."
+msgstr "Seleziona i corrieri che utilizzi piu spesso per un rilevamento più accurato."
+
+msgid "Please select couriers"
+msgstr "Si prega di selezionare i corrieri"
+
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+msgid "Your Name"
+msgstr "Il tuo nome"
+
+msgid "Your Store Name"
+msgstr "Il nome del suo negozio"
+
+msgid "Language"
+msgstr "Linguaggio"
+
+msgid "Email Address"
+msgstr "Indirizzo email"
+
+msgid "This address is used for admin purposes. If you change this we will send you a confirmation email to your new address."
+msgstr "Questo indirizzo è utilizzato per scopi di amministrazione.se cambia questo,le invieremo un’ email di conferma al suo nuovo indirizzo."
+
+msgid "The new address will not be active until confirmed."
+msgstr "Il nuovo indirizzo non sarà attivo fino alla conferma."
+
+msgid "Save Settings"
+msgstr "Salva le impostazioni"
+
+msgid "Domain Settings"
+msgstr "Impostazioni dominio"
+
+msgid "TrackFree Custom Domain"
+msgstr "TrackFree dominio personalizzato"
+
+msgid "Custom domain successfully connected with TrackFree."
+msgstr "Dominio personalizzato connesso correttamente con TrackFree."
+
+msgid "Custom domain is not connected with TrackFree."
+msgstr "Il dominio personalizzato non è connesso con TrackFree."
+
+msgid "Update Custom Domain"
+msgstr "Aggiorna dominio personalizzato"
+
+msgid "Subdomain Settings"
+msgstr "Impostazioni di sottodominio"
+
+msgid "TrackFree Subdomain"
+msgstr "TrackfFee di sottodominio"
+
+msgid "Update Subdomain"
+msgstr "Aggiorna sottodominio"
+
+msgid "Billing"
+msgstr "Fatturazione"
+
+msgid "Plan Name"
+msgstr "Nome del piano"
+
+msgid "Usage"
+msgstr "Uso"
+
+msgid "Subscription Days Left"
+msgstr "Giorni di abbonamento rimasti"
+
+msgid "Shipment Delivery Email"
+msgstr "Email di consegna della spedizione"
+
+msgid "Send mail to customer when shipment is delivered"
+msgstr "Invia una mail al cliente al momento della spedizione"
+
+msgid "Display Delivery Column"
+msgstr "Visualizza colonna di consegna"
+
+msgid "Show shipment details in order list page"
+msgstr "Mostra i dettagli della spedizione nella pagina della lista degli ordini"
+
+msgid "Display Shipping Details"
+msgstr "Visualizza dettagli di spedizione"
+
+msgid "Show shipment details in order details page"
+msgstr "Mostra i dettagli della spedizione nella pagina dei dettagli dell'ordine"
+
+msgid "Themes"
+msgstr "Temi"
+
+msgid "Select themes, upload logo and manage."
+msgstr "Seleziona temi, carica logo e gestisci."
+
+msgid "Preview"
+msgstr "Anteprima"
+
+msgid "Apply Theme"
+msgstr "Applica tema"
+
+msgid "Tracking page logo"
+msgstr "Tracciamento del logo della pagina"
+
+msgid "Save"
+msgstr "Salvare"
+
+msgid "Remove"
+msgstr "Rimuovere"
+
+msgid "Change logo"
+msgstr "Cambia logo"
+
+msgid "Select logo"
+msgstr "Seleziona logo"
+
+msgid "Site icon"
+msgstr "Icona del sito"
+
+msgid "Change site icon"
+msgstr "Cambia l'icona del sito"
+
+msgid "Select site icon"
+msgstr "Seleziona l'icona del sito"
+
+msgid "Tracking page banner"
+msgstr "Tracciamento banner della pagina"
+
+msgid "Tracking page banner url"
+msgstr "URL di tracciamento della pagina di monitoraggio"
+
+msgid "Banner URL updated successfully"
+msgstr "URL banner aggiornato correttamente"
+
+msgid "Suggested image dimensions"
+msgstr "Dimensioni dell'immagine suggerite"
+
+msgid "Site Icons are what you see in browser tabs, bookmark bars."
+msgstr "Le icone del sito sono quelle che vede nelle schede del browser, barre dei segnalibri."
+
+msgid "Change banner"
+msgstr "Cambia banner"
+
+msgid "Select banner"
+msgstr "Seleziona banner"
+
+msgid "Custom Script"
+msgstr "Script personalizzato"
+
+msgid "Email Settings"
+msgstr "Impostazioni dell’e-mail"
+
+msgid "Email sender options"
+msgstr "Opzioni dell’e-mail del mittente"
+
+msgid "\"From\" name"
+msgstr "Dal nome"
+
+msgid "\"From\" address"
+msgstr "Dall'indirizzo"
+
+msgid "How the sender name appears in outgoing TrackFree emails."
+msgstr "Come appare il nome del mittente nelle e-mail TrackFree in uscita."
+
+msgid "How the sender email appears in outgoing TrackFree emails."
+msgstr "Come appare l'e-mail del mittente nelle e-mail in uscita TrackFree."
+
+msgid "Email notifications"
+msgstr "Notifiche dell’e-mail"
+
+msgid "Email type"
+msgstr "Tipo di email"
+
+msgid "Action"
+msgstr "Azione"
+
+msgid "Send Test Mail"
+msgstr "Invia posta di prova"
+
+msgid "New Shipment Notification"
+msgstr "Nuova notifica di spedizione"
+
+msgid "New shipment notification emails are sent to customer on addition of new tracking number."
+msgstr "Nuove e-mail di notifica della spedizione vengono inviate al cliente in aggiunta al nuovo numero di tracciamento."
+
+msgid "Shipment Delivery - Success Notification"
+msgstr "Consegna della spedizione - Notifica con successo"
+
+msgid "Success delivery notification emails are sent to customer on successful delivery of shipment."
+msgstr "Le e-mail di notifica di consegna riuscita vengono inviate al cliente in caso di spedizione avvenuta con successo."
+
+msgid "Shipment Delivery - Failed Notification"
+msgstr "Consegna della spedizione - Notifica non riuscita"
+
+msgid "Failed delivery notification emails are sent to customer when the delivery of shipment could not be completed."
+msgstr "Le e-mail di notifica di consegna non riuscite vengono inviate al cliente quando la consegna della spedizione non può essere completata."
+
+msgid "Shipment Feedback Notification"
+msgstr "Notifica di feedback sulla spedizione"
+
+msgid "Feedback emails are sent to customer when the delivery has been successfully completed."
+msgstr "Le e-mail di feedback vengono inviate al cliente quando la consegna è stata completata con successo."
+
+msgid "<strong>ERROR</strong>: Enter a domain name."
+msgstr "<strong>ERRORE</strong>: Inserisci un nome di dominio."
+
+msgid "<strong>ERROR</strong>: Enter a sub-domain name."
+msgstr "<strong>ERRORE</strong>: Inserisci un nome di sottodominio."
+
+msgid "<strong>ERROR</strong>: Enter a Sender name."
+msgstr "<strong>ERRORE</strong>: Inserisci un nome mittente."
+
+msgid "<strong>ERROR</strong>: The email address is not correct."
+msgstr "<strong>ERRORE</strong>: L'indirizzo email non è corretto."
+
+msgid "<strong>ERROR</strong>: Enter your name."
+msgstr "<strong>ERRORE</strong>: Inserisci il suo nome."
+
+msgid "<strong>ERROR</strong>: Enter your storename."
+msgstr "<strong>ERRORE</strong>: Inserisci il suo nome di archivio."
+
+msgid "This account not verified or locked. Please contact TrackFree support team."
+msgstr "Questo account non è stato verificato o bloccato. Si prega di contattare il team di supporto TrackFree."
+
+msgid "App already installed. Please contact TrackFree support team."
+msgstr "App già installata. Si prega di contattare il team di supporto TrackFree."
+
+msgid "Something went wrong. Please contact TrackFree support team."
+msgstr "Qualcosa è andato storto. Si prega di contattare il team di supporto TrackFree."
+
+msgid "Status updated"
+msgstr "Stato aggiornato"
+
+msgid "Image uploaded successfully"
+msgstr "Immagine caricata con successo"
+
+msgid "Image removed successfully"
+msgstr "Immagine rimossa con successo"
+
+msgid "Please wait, we are getting tracking info from the carrier."
+msgstr "Per favore aspetta, stiamo ricevendo informazioni di tracciamento dal corriere."
+
+msgid "There is a new version available."
+msgstr "C'è una nuova versione disponibile."
+
+msgid "Update now"
+msgstr "Aggiorna ora"
+
+msgid "View shipment details"
+msgstr "Vedi dettagli della spedizione"
+
+msgid "Footer script updated successfully"
+msgstr "Footer script updated successfully"
+
+msgid "Footer script content inside have some invalid tag or keyword. If you have any script tag inside please remove and update"
+msgstr "Footer script content inside have some invalid tag or keyword. If you have any script tag inside please remove and update"
+
+msgid "This feature for premium user only. Please subscribe premium plan"
+msgstr "This feature for premium user only. Please subscribe premium plan"
+
+msgid "Invalid authentication"
+msgstr "Invalid authentication"
+
+msgid "Invalid request"
+msgstr "Invalid request"
+
+msgid "Invalid domain format"
+msgstr "Invalid domain format"
+
+msgid "Only one subdomain allowed for this TrackFree account"
+msgstr "Only one subdomain allowed for this TrackFree account"
+
+msgid "This domain already account with us"
+msgstr "This domain already account with us"
+
+msgid "Shipment test mail sent successfully"
+msgstr "Shipment test mail sent successfully"
+
+msgid "Sorry! unable to send shipment test mail, because there is no tracking number for you"
+msgstr "Sorry! unable to send shipment test mail, because there is no tracking number for you"
+
+msgid "Subdomain updated successfully"
+msgstr "Subdomain updated successfully"
+
+msgid "Subdomain name must be at least minimum 4 characters to maximum 64 characters"
+msgstr "Subdomain name must be at least minimum 4 characters to maximum 64 characters"
+
+msgid "This subdomain name not allowed with TrackFree"
+msgstr "This subdomain name not allowed with TrackFree"
+
+msgid "This name already taken with us"
+msgstr "This name already taken with us"
+
+msgid "Sender options updated successfully"
+msgstr "Sender options updated successfully"
+
+msgid "is not a valid email address"
+msgstr "is not a valid email address"
+
+msgid "Fill sender name and email"
+msgstr "Fill sender name and email"
+
+msgid "Theme updated successfully"
+msgstr "Theme updated successfully"
+
+msgid "General settings updated successfully"
+msgstr "General settings updated successfully"
+
+msgid "Email address already account with us"
+msgstr "Email address already account with us"
+
+msgid "All fields required"
+msgstr "All fields required"

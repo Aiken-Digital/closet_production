@@ -1,0 +1,360 @@
+2019-04-22T04:51:21+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Info: Beginning refund for order ch_1EPhDjF71WWm3Cm5uSB3YxeD for the amount of 510.00
+====End Log====
+
+
+2019-04-22T04:51:21+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+refunds request: Array
+(
+    [amount] => 51000
+    [charge] => ch_1EPhDjF71WWm3Cm5uSB3YxeD
+)
+
+====End Log====
+
+
+2019-04-22T04:51:22+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+balance/history/txn_1ERu7iF71WWm3Cm51EvcB497
+====End Log====
+
+
+2019-04-22T04:51:23+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Success: Refunded $510.00 - Refund ID: re_1ERu7iF71WWm3Cm5ss7sYl0C - Reason:
+====End Log====
+
+
+2019-04-22T04:58:05+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-22T04:58:09+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-22T04:58:12+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+sources/src_1EO5B1F71WWm3Cm52UaMy1zz
+====End Log====
+
+
+2019-04-22T04:58:13+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Info: Begin processing payment for order 1493 for the amount of 100000.00
+====End Log====
+
+
+2019-04-22T04:58:13+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 10000000
+    [description] => Closet - Order 1493
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 1493
+        )
+
+    [customer] => cus_ErooBdwhs13qwC
+    [source] => src_1EO5B1F71WWm3Cm52UaMy1zz
+)
+
+====End Log====
+
+
+2019-04-22T04:58:14+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1ERuEMF71WWm3Cm5yCnrvyqy
+    [object] => charge
+    [amount] => 10000000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1ERuEMF71WWm3Cm5z2hWX7Lu
+            [object] => balance_transaction
+            [amount] => 10000000
+            [available_on] => 1556496000
+            [created] => 1555909094
+            [currency] => sgd
+            [description] => Closet - Order 1493
+            [exchange_rate] => 
+            [fee] => 340050
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 340050
+                            [application] => 
+                            [currency] => sgd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 9659950
+            [source] => ch_1ERuEMF71WWm3Cm5yCnrvyqy
+            [status] => pending
+            [type] => charge
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => masitingss@gmail.com
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1555909094
+    [currency] => sgd
+    [customer] => cus_ErooBdwhs13qwC
+    [description] => Closet - Order 1493
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 1493
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 43
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1EO5B1F71WWm3Cm52UaMy1zz
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1ENu5QF71WWm3Cm5/ch_1ERuEMF71WWm3Cm5yCnrvyqy/rcpt_Evll9bzpXz3MdnhF4mJvXQVgMbwnsJG
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1ERuEMF71WWm3Cm5yCnrvyqy/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1EO5B1F71WWm3Cm52UaMy1zz
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [funding] => credit
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [three_d_secure] => optional
+                    [name] => 
+                    [address_line1_check] => 
+                    [address_zip_check] => 
+                    [cvc_check] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_ErooEujZwtJjD0wP9tobveiF
+            [created] => 1555909094
+            [currency] => 
+            [customer] => cus_ErooBdwhs13qwC
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => 
+                    [name] => masitingss@gmail.com
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2019-04-22T05:01:51+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-22T05:01:56+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-22T05:02:30+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-22T05:02:34+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-22T06:13:40+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-22T06:13:44+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+

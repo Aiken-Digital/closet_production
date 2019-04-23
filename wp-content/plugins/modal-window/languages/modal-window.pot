@@ -1,0 +1,1422 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Modal Window\n"
+"POT-Creation-Date: 2019-03-25 13:50+0200\n"
+"PO-Revision-Date: 2019-03-25 13:50+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: modal-window.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-admin.php:173 admin/partials/add-new/close.php:19
+msgid "Settings"
+msgstr ""
+
+#: admin/class-admin.php:182
+#, php-format
+msgid "Thank you for using <a href=\"%1$s\" target=\"_blank\">"
+msgstr ""
+
+#: admin/class-admin.php:257
+msgid "More features in the PRO version"
+msgstr ""
+
+#: admin/partials/add-new/button.php:19
+msgid "Show button"
+msgstr ""
+
+#: admin/partials/add-new/button.php:25
+msgid "Appearance"
+msgstr ""
+
+#: admin/partials/add-new/button.php:35
+msgid "Text"
+msgstr ""
+
+#: admin/partials/add-new/button.php:44 admin/partials/add-new/button.php:49
+#: admin/partials/add-new/style.php:119 admin/partials/add-new/stylecls.php:30
+#: admin/partials/add-new/stylecls.php:36
+msgid "Location"
+msgstr ""
+
+#: admin/partials/add-new/button.php:56
+msgid "Top position"
+msgstr ""
+
+#: admin/partials/add-new/button.php:57
+msgid "Left position"
+msgstr ""
+
+#: admin/partials/add-new/button.php:63
+msgid "Margin-top"
+msgstr ""
+
+#: admin/partials/add-new/button.php:64
+msgid "Margin-right"
+msgstr ""
+
+#: admin/partials/add-new/button.php:65
+msgid "Margin-bottom"
+msgstr ""
+
+#: admin/partials/add-new/button.php:66
+msgid "Margin-left"
+msgstr ""
+
+#: admin/partials/add-new/button.php:75 admin/partials/add-new/display.php:74
+msgid "Animation"
+msgstr ""
+
+#: admin/partials/add-new/button.php:80
+msgid "Type"
+msgstr ""
+
+#: admin/partials/add-new/button.php:86
+msgid "Duration (sec)"
+msgstr ""
+
+#: admin/partials/add-new/button.php:92
+msgid "Time (sec)"
+msgstr ""
+
+#: admin/partials/add-new/button.php:101
+msgid "Pause (sec)"
+msgstr ""
+
+#: admin/partials/add-new/button.php:115 admin/partials/add-new/form.php:69
+#: admin/partials/add-new/style.php:94
+msgid "Style"
+msgstr ""
+
+#: admin/partials/add-new/button.php:120 admin/partials/add-new/form.php:124
+msgid "Text size"
+msgstr ""
+
+#: admin/partials/add-new/button.php:126 admin/partials/add-new/form.php:79
+#: admin/partials/add-new/style.php:40
+msgid "Padding"
+msgstr ""
+
+#: admin/partials/add-new/button.php:132 admin/partials/add-new/style.php:90
+#: admin/partials/add-new/stylecls.php:123
+msgid "Radius"
+msgstr ""
+
+#: admin/partials/add-new/button.php:142 admin/partials/add-new/form.php:179
+msgid "Text color"
+msgstr ""
+
+#: admin/partials/add-new/button.php:148
+msgid "Text hover color"
+msgstr ""
+
+#: admin/partials/add-new/button.php:154
+#: admin/partials/add-new/stylecls.php:156
+msgid "Background"
+msgstr ""
+
+#: admin/partials/add-new/button.php:164
+#: admin/partials/add-new/stylecls.php:163
+msgid "Hover Background"
+msgstr ""
+
+#: admin/partials/add-new/close.php:26
+msgid "Remove Close Button"
+msgstr ""
+
+#: admin/partials/add-new/close.php:32
+msgid "Click Overlay to Close"
+msgstr ""
+
+#: admin/partials/add-new/close.php:37
+msgid "Press ESC to Close"
+msgstr ""
+
+#: admin/partials/add-new/close.php:46 admin/partials/add-new/display.php:26
+msgid "Delay (sec)"
+msgstr ""
+
+#: admin/partials/add-new/close.php:55
+msgid "Auto close (sec)"
+msgstr ""
+
+#: admin/partials/add-new/display.php:19
+msgid "Triggers"
+msgstr ""
+
+#: admin/partials/add-new/display.php:32
+msgid "Reach (%)"
+msgstr ""
+
+#: admin/partials/add-new/display.php:41 admin/partials/add-new/form.php:19
+#: admin/partials/add-new/style.php:164
+msgid "Notice!"
+msgstr ""
+
+#: admin/partials/add-new/display.php:44
+msgid "You can open popup via adding to the element:"
+msgstr ""
+
+#: admin/partials/add-new/display.php:59
+msgid "Show only once?"
+msgstr ""
+
+#: admin/partials/add-new/display.php:65
+msgid "Reset in (days)"
+msgstr ""
+
+#: admin/partials/add-new/display.php:77
+msgid "Animate In"
+msgstr ""
+
+#: admin/partials/add-new/display.php:83
+msgid "Animate In Speed"
+msgstr ""
+
+#: admin/partials/add-new/display.php:91
+msgid "Animate Out"
+msgstr ""
+
+#: admin/partials/add-new/display.php:98
+msgid "Animate Out Speed"
+msgstr ""
+
+#: admin/partials/add-new/display.php:108
+msgid "Youtube video support"
+msgstr ""
+
+#: admin/partials/add-new/display.php:112
+msgid ""
+"Use this option if you insert video in the content as iframe code  from "
+"Youtube"
+msgstr ""
+
+#: admin/partials/add-new/display.php:119
+msgid "Video support"
+msgstr ""
+
+#: admin/partials/add-new/form.php:20
+msgid ""
+"For insert form into modal window content use tag <b>{form}</b>. \n"
+"Simple insert <b>{form}</b> into popup content"
+msgstr ""
+
+#: admin/partials/add-new/form.php:26
+msgid "Fields"
+msgstr ""
+
+#: admin/partials/add-new/form.php:32
+msgid "Name"
+msgstr ""
+
+#: admin/partials/add-new/form.php:40
+msgid "Email"
+msgstr ""
+
+#: admin/partials/add-new/form.php:48
+msgid "Textarea"
+msgstr ""
+
+#: admin/partials/add-new/form.php:58
+msgid "Button's text"
+msgstr ""
+
+#: admin/partials/add-new/form.php:73 admin/partials/add-new/style.php:19
+#: admin/partials/add-new/style.php:280
+msgid "Width"
+msgstr ""
+
+#: admin/partials/add-new/form.php:86
+msgid "Margin"
+msgstr ""
+
+#: admin/partials/add-new/form.php:97
+msgid "Form border"
+msgstr ""
+
+#: admin/partials/add-new/form.php:103
+msgid "Form border radius"
+msgstr ""
+
+#: admin/partials/add-new/form.php:108
+msgid "Field border"
+msgstr ""
+
+#: admin/partials/add-new/form.php:118
+msgid "Field border radius"
+msgstr ""
+
+#: admin/partials/add-new/form.php:129
+msgid "Button text size"
+msgstr ""
+
+#: admin/partials/add-new/form.php:138
+msgid "Input height"
+msgstr ""
+
+#: admin/partials/add-new/form.php:144
+msgid "Textarea height"
+msgstr ""
+
+#: admin/partials/add-new/form.php:156
+msgid "Form background"
+msgstr ""
+
+#: admin/partials/add-new/form.php:161
+msgid "Form border color"
+msgstr ""
+
+#: admin/partials/add-new/form.php:166
+msgid "Field background"
+msgstr ""
+
+#: admin/partials/add-new/form.php:174
+msgid "Field border color"
+msgstr ""
+
+#: admin/partials/add-new/form.php:184
+msgid "Button text color"
+msgstr ""
+
+#: admin/partials/add-new/form.php:192
+msgid "Button background"
+msgstr ""
+
+#: admin/partials/add-new/form.php:197
+msgid "Button hover color"
+msgstr ""
+
+#: admin/partials/add-new/form.php:208
+msgid "Email settings"
+msgstr ""
+
+#: admin/partials/add-new/form.php:212
+msgid "Confirmation text"
+msgstr ""
+
+#: admin/partials/add-new/form.php:217
+msgid "Confirmation text size (px)"
+msgstr ""
+
+#: admin/partials/add-new/form.php:222
+msgid "Confirmation text color"
+msgstr ""
+
+#: admin/partials/add-new/form.php:230
+msgid "Error text"
+msgstr ""
+
+#: admin/partials/add-new/form.php:235
+msgid "Error text size (px)"
+msgstr ""
+
+#: admin/partials/add-new/form.php:240
+msgid "Error text color"
+msgstr ""
+
+#: admin/partials/add-new/form.php:248
+msgid "Close window after sending (sec)"
+msgstr ""
+
+#: admin/partials/add-new/form.php:263
+msgid "Email to Admin"
+msgstr ""
+
+#: admin/partials/add-new/form.php:268
+msgid "Send mail to admin"
+msgstr ""
+
+#: admin/partials/add-new/form.php:280
+msgid "Email to User"
+msgstr ""
+
+#: admin/partials/add-new/form.php:285
+msgid "Send mail to user"
+msgstr ""
+
+#: admin/partials/add-new/icon.php:24
+msgid "Select Icon"
+msgstr ""
+
+#: admin/partials/add-new/icon.php:29 admin/partials/add-new/style.php:104
+#: admin/partials/add-new/style.php:235 admin/partials/add-new/stylecls.php:136
+msgid "Color"
+msgstr ""
+
+#: admin/partials/add-new/icon.php:34
+msgid "Size (px)"
+msgstr ""
+
+#: admin/partials/add-new/icon.php:43
+msgid "Link"
+msgstr ""
+
+#: admin/partials/add-new/icon.php:48
+msgid "Link target"
+msgstr ""
+
+#: admin/partials/add-new/icon.php:59
+msgid "GENERATE"
+msgstr ""
+
+#: admin/partials/add-new/icon.php:68
+msgid "Shortcode"
+msgstr ""
+
+#: admin/partials/add-new/icon.php:78 admin/partials/add_new.php:50
+msgid "Preview"
+msgstr ""
+
+#: admin/partials/add-new/other.php:17
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/partials/add-new/settings/add-new.php:46
+msgid "Where shortcode is inserted"
+msgstr ""
+
+#: admin/partials/add-new/settings/add-new.php:47
+msgid "All posts and pages"
+msgstr ""
+
+#: admin/partials/add-new/settings/add-new.php:62
+msgid "Choose a condition to target to specific content."
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:21
+#: admin/partials/add-new/settings/button.php:173
+#: admin/partials/add-new/settings/display.php:96
+#: admin/partials/add-new/settings/display.php:154
+#: admin/partials/add-new/settings/display.php:189
+#: admin/partials/add-new/settings/display.php:207
+#: admin/partials/add-new/settings/display.php:223
+msgid "no"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:22
+#: admin/partials/add-new/settings/display.php:97
+#: admin/partials/add-new/settings/display.php:190
+#: admin/partials/add-new/settings/display.php:208
+#: admin/partials/add-new/settings/display.php:224
+msgid "yes"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:32
+msgid "Only Text"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:39
+msgid "Set the button appearance."
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:48
+msgid "Feedback"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:54
+msgid "Enter Text for button."
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:69
+msgid "Select the Icon for button"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:79
+msgid "none"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:80
+msgid "90&deg;"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:81
+msgid "180&deg;"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:82
+msgid "270&deg;"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:94
+msgid "Before Icon"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:95
+msgid "After Icon"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:100
+#: admin/partials/add-new/settings/button.php:141
+msgid "Set where the button text will be displayed."
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:120
+msgid "fas fa-ban"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:132
+#: admin/partials/add-new/style.php:153 admin/partials/add-new/stylecls.php:64
+msgid "Right"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:133
+#: admin/partials/add-new/style.php:145 admin/partials/add-new/stylecls.php:58
+msgid "Left"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:134
+#: admin/partials/add-new/style.php:126 admin/partials/add-new/stylecls.php:44
+msgid "Top"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:135
+#: admin/partials/add-new/style.php:132 admin/partials/add-new/stylecls.php:50
+msgid "Bottom"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:231
+#: admin/partials/add-new/settings/stylecls.php:148
+msgid "Specify button text inner padding. Can be:"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:233
+#: admin/partials/add-new/settings/stylecls.php:150
+msgid ""
+"any integer value in px (for example: \"10px\" will set popup inner paddings "
+"to 10px)"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:234
+#: admin/partials/add-new/settings/stylecls.php:151
+msgid "if you enter 0, the popup will have not paddings"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:235
+#: admin/partials/add-new/settings/form.php:127
+#: admin/partials/add-new/settings/stylecls.php:152
+msgid ""
+"when four values are specified, the paddings apply to the top, right, "
+"bottom, and left in that order (clockwise)"
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:255
+#: admin/partials/add-new/settings/style.php:188
+msgid "Specify modal window border radius in px."
+msgstr ""
+
+#: admin/partials/add-new/settings/button.php:272
+msgid "Set the font size for close button content in em"
+msgstr ""
+
+#: admin/partials/add-new/settings/close.php:24
+msgid "Remove and don&rsquo;t show the popup close button."
+msgstr ""
+
+#: admin/partials/add-new/settings/close.php:39
+msgid "Specify if overlay can close the modal or not."
+msgstr ""
+
+#: admin/partials/add-new/settings/close.php:54
+msgid "Enabled the ESC key to close the popup."
+msgstr ""
+
+#: admin/partials/add-new/settings/close.php:72
+msgid "Delay time in seconds for showing popup close button."
+msgstr ""
+
+#: admin/partials/add-new/settings/close.php:86
+msgid ""
+"Set the time in seconds during which you want the modal window to be open."
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:27
+msgid "Click"
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:28
+msgid "Auto"
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:29
+msgid "Hover"
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:30
+msgid "Exit"
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:31
+msgid "Scrolled"
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:39
+msgid "Triggers cause a popup to open:"
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:41
+msgid ""
+"<strong>Click</strong> - if you wish to activate the popup manually on "
+"element click;"
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:42
+msgid "<strong>Auto</strong> - popup will activate when the page loads;"
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:43
+msgid ""
+"<strong>Hover</strong> - if you wish to activate the popup manually on "
+"element hover;"
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:44
+msgid ""
+"<strong>Exit</strong> - popup will activate on exiting the page at the top "
+"of the opened window;"
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:45
+msgid "<strong>Scrolled</strong> - popup will activate on scroll;"
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:46
+msgid ""
+"<strong>Right Click</strong> - if you wish to activate the popup when user "
+"click on right button of the mouse;"
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:47
+msgid ""
+"<strong>Selected Text</strong> - if you wish to activate the popup when user "
+"select the text on the page."
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:65
+msgid "Delay time in seconds for opening popup."
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:82
+msgid "Distance in px from the top of window for scrolled popup type:"
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:84
+#, php-format
+msgid ""
+"<strong>any integer value</strong> (for example: 50 = 50% from the top of "
+"page)."
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:104
+msgid ""
+"Defines if the popup will set a cookie and hide it self for a period of time "
+"from the user.  Set the cookie in days."
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:150
+msgid "Specify popup animation effect speed in milliseconds."
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:168
+msgid "Specify modal window transition open effect."
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:181
+msgid "Specify modal window transition close effect."
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:199
+msgid ""
+"If enable checkbox, the modal will support Youtube video auto play and video "
+"stop on closing the modal."
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:215
+msgid "If enable, the video will autoplay on modal opening."
+msgstr ""
+
+#: admin/partials/add-new/settings/display.php:231
+msgid "If enable, the video will stop playing on modal closing."
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:31
+msgid "Enable Name field in the form and enter the placeholder for it."
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:51
+msgid "Enable Email field in the form and enter the placeholder for it."
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:71
+msgid "Enable Textarea field in the form and enter the placeholder for it."
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:82
+msgid "Enter the text for Submit button."
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:91
+msgid "100%"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:100
+msgid "Specify form width. Can be:"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:102
+msgid ""
+"<strong>any integer value in px</strong> (for example: \"400px\" will set "
+"form width to 400px);"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:103
+msgid ""
+"<strong>any integer value in %</strong> (for example: \"80%\" will set form "
+"width to 80% of the window width);"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:104
+msgid "<strong>auto</strong> - the browser calculates the form width."
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:114
+#: admin/partials/add-new/settings/form.php:161
+msgid "10px"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:123
+msgid "Specify form inner padding. Can be:"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:125
+msgid ""
+"any integer value in px (for example: \"10px\" will set form inner paddings "
+"to 10px)"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:126
+msgid "if you enter 0, the form will have not paddings"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:137
+msgid "0 auto"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:146
+msgid "Specify form margin. Can be:"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:148
+msgid ""
+"any integer value in px (for example: \"10px\" will set form margins to 10px)"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:149
+msgid "if you enter 0, the form will have not margins"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:150
+msgid ""
+"when four values are specified, the margins apply to the top, right, bottom, "
+"and left in that order (clockwise)"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:151
+msgid "0 auto - centers the form horizontally"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:171
+#: admin/partials/add-new/settings/form.php:191
+msgid "0px"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:181
+msgid "1px"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:201
+#: admin/partials/add-new/settings/form.php:211
+msgid "16px"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:221
+msgid "36px"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:231
+msgid "72px"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:396
+#: admin/partials/add-new/settings/form.php:438
+msgid "Letter from the site"
+msgstr ""
+
+#: admin/partials/add-new/settings/form.php:409
+msgid "Enter the text that is sent to email to admin after subscribing."
+msgstr ""
+
+#: admin/partials/add-new/settings/icon.php:58
+msgid "In a new window"
+msgstr ""
+
+#: admin/partials/add-new/settings/icon.php:59
+msgid "In the same window"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:30
+#: admin/partials/add-new/settings/style.php:54
+#: admin/partials/add-new/settings/style.php:610
+msgid "px"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:31
+#: admin/partials/add-new/settings/style.php:55
+#: admin/partials/add-new/settings/style.php:611
+msgid "%"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:53
+msgid "auto"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:75
+msgid "Specify modal window inner padding."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:91
+msgid ""
+"The z-index property specifies the stack order of an element. An element "
+"with greater stack order is always in front of an element with a lower stack "
+"order."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:105
+msgid ""
+"Specify the modal window background image. Enter the URL of the image which "
+"you want to use as a background."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:114
+msgid "Fixed"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:115
+msgid "Absolute"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:121
+msgid "Set the positioning of the popup. Can be:"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:123
+msgid ""
+"<strong>fixed</strong> - popup is positioned relative to the browser window;"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:124
+msgid ""
+"<strong>absolute</strong> - the popup is positioned relative to its place;"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:137
+msgid "Specify modal window background color."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:153
+msgid ""
+"Specify if overlay should be active or not. If you uncheck, the modal will "
+"have no background overlay."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:207
+#: admin/partials/add-new/settings/style.php:350
+msgid "None"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:208
+msgid "Solid"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:209
+msgid "Dotted"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:210
+msgid "Dashed"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:211
+msgid "Double"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:212
+msgid "Groove"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:213
+msgid "Inset"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:214
+msgid "Outset"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:215
+msgid "Ridge"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:222
+msgid "Choose a border style for your popup."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:251
+msgid "Distance from the top edge of the screen in %."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:280
+msgid "Distance from the bottom  edge of the screen in %."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:310
+msgid "Distance from the left edge of the screen in %."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:340
+msgid "Distance from the right edge of the screen in %."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:357
+msgid "Set the box shadow."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:359
+msgid "None - no shadow is displayed"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:360
+msgid "Outset - outer shadow of popup"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:361
+msgid "Inset - inner shadow of popup"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:378
+msgid ""
+"The horizontal offset of the shadow. A positive value puts the shadow on the "
+"right side of the box, a negative value puts the shadow on the left side of "
+"the box."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:394
+msgid ""
+"The vertical offset of the shadow. A positive value puts the shadow below "
+"the box, a negative value puts the shadow above the box."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:410
+msgid ""
+"The blur radius. The higher the number, the more blurred the shadow will be."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:426
+msgid ""
+"The spread radius. A positive value increases the size of the shadow, a "
+"negative value decreases the size of the shadow."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:441
+msgid "The color of the shadow."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:459
+msgid "Set the font size for popup content in px"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:477
+msgid ""
+"The line-height property defines the amount of space above and below inline "
+"elements in px."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:487
+#: admin/partials/add-new/settings/style.php:565
+#: admin/partials/add-new/settings/stylecls.php:204
+msgid "Use Your Themes"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:556
+#: admin/partials/add-new/settings/stylecls.php:194
+msgid "Set the font size for close button content in px"
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:585
+msgid ""
+"Set the screen size in px of mobile devices for which the this option of the "
+"modal window size will be applied."
+msgstr ""
+
+#: admin/partials/add-new/settings/style.php:602
+msgid "Set the width of the modal window for mobile devices"
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:21
+msgid "Top Right location on the popup"
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:28
+msgid "Specify close button location."
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:46
+msgid "Distance from the top edge of the popup in px."
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:63
+msgid "Distance from the bottom  edge of the popup in px."
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:80
+msgid "Distance from the left edge of the popup in px."
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:98
+msgid "Distance from the right edge of the popup in px."
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:108
+msgid "Icon"
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:120
+msgid "Close"
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:129
+msgid "Enter the close button text."
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:175
+msgid "Specify box size for close button icon."
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:260
+msgid "Set the border width in pixels."
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:276
+msgid "Specify popup close button color."
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:292
+msgid "Specify popup close button hover text color."
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:308
+msgid "Specify popup close button background color."
+msgstr ""
+
+#: admin/partials/add-new/settings/stylecls.php:324
+msgid "Specify popup close button hover background color."
+msgstr ""
+
+#: admin/partials/add-new/settings/targeting.php:25
+msgid "Specify the window breakpoint in px when the button will be shown."
+msgstr ""
+
+#: admin/partials/add-new/settings/targeting.php:52
+msgid "Specify the window breakpoint ( mix width) in px."
+msgstr ""
+
+#: admin/partials/add-new/settings/targeting.php:76
+#: admin/partials/add-new/settings/targeting.php:86
+msgid "All Users"
+msgstr ""
+
+#: admin/partials/add-new/settings/targeting.php:77
+msgid "Authorized Users"
+msgstr ""
+
+#: admin/partials/add-new/settings/targeting.php:78
+msgid "Unauthorized Users"
+msgstr ""
+
+#: admin/partials/add-new/settings/targeting.php:192
+msgid ""
+"The current popup will be shown to the user only if the user saw the "
+"previous set popup. The previous pop-up should have cookies."
+msgstr ""
+
+#: admin/partials/add-new/settings/targeting.php:201
+msgid "Untitle Modal Window"
+msgstr ""
+
+#: admin/partials/add-new/settings/targeting.php:203
+#: admin/partials/add-new/settings/targeting.php:214
+msgid "Not created yet"
+msgstr ""
+
+#: admin/partials/add-new/style.php:25
+msgid "Height"
+msgstr ""
+
+#: admin/partials/add-new/style.php:31
+msgid "Z-index"
+msgstr ""
+
+#: admin/partials/add-new/style.php:46
+msgid "Background Image URL"
+msgstr ""
+
+#: admin/partials/add-new/style.php:52
+msgid "Position"
+msgstr ""
+
+#: admin/partials/add-new/style.php:61
+msgid "Background Color"
+msgstr ""
+
+#: admin/partials/add-new/style.php:68
+msgid "Overlay"
+msgstr ""
+
+#: admin/partials/add-new/style.php:84
+msgid "Border"
+msgstr ""
+
+#: admin/partials/add-new/style.php:108
+msgid "Thickness"
+msgstr ""
+
+#: admin/partials/add-new/style.php:165
+msgid "If you want to align the modal window horizontally, set values:"
+msgstr ""
+
+#: admin/partials/add-new/style.php:177
+msgid "Drop Shadow"
+msgstr ""
+
+#: admin/partials/add-new/style.php:180
+msgid "Shadow"
+msgstr ""
+
+#: admin/partials/add-new/style.php:196
+msgid "Title"
+msgstr ""
+
+#: admin/partials/add-new/style.php:200 admin/partials/add-new/style.php:251
+#: admin/partials/add-new/stylecls.php:94
+msgid "Font Size"
+msgstr ""
+
+#: admin/partials/add-new/style.php:205
+msgid "Line Height"
+msgstr ""
+
+#: admin/partials/add-new/style.php:210 admin/partials/add-new/style.php:256
+#: admin/partials/add-new/stylecls.php:101
+msgid "Font Family"
+msgstr ""
+
+#: admin/partials/add-new/style.php:218 admin/partials/add-new/stylecls.php:107
+msgid "Font Weight"
+msgstr ""
+
+#: admin/partials/add-new/style.php:223 admin/partials/add-new/stylecls.php:117
+msgid "Font Style"
+msgstr ""
+
+#: admin/partials/add-new/style.php:228
+msgid "Align"
+msgstr ""
+
+#: admin/partials/add-new/style.php:247
+msgid "Content"
+msgstr ""
+
+#: admin/partials/add-new/style.php:269
+msgid "Mobile Style"
+msgstr ""
+
+#: admin/partials/add-new/style.php:274
+msgid "Trigger for screens less than"
+msgstr ""
+
+#: admin/partials/add-new/stylecls.php:20
+msgid "Close Button type"
+msgstr ""
+
+#: admin/partials/add-new/stylecls.php:83
+msgid "Box Size"
+msgstr ""
+
+#: admin/partials/add-new/stylecls.php:143
+msgid "Hover Color"
+msgstr ""
+
+#: admin/partials/add-new/targeting.php:16
+msgid "Targeting"
+msgstr ""
+
+#: admin/partials/add-new/targeting.php:20
+msgid "Show on devices"
+msgstr ""
+
+#: admin/partials/add-new/targeting.php:22
+msgid "Don't show on screens more"
+msgstr ""
+
+#: admin/partials/add-new/targeting.php:27
+msgid "Don't show on screens less"
+msgstr ""
+
+#: admin/partials/add-new/targeting.php:35
+msgid "Show for users"
+msgstr ""
+
+#: admin/partials/add-new/targeting.php:43
+msgid "Depending on the language"
+msgstr ""
+
+#: admin/partials/add-new/targeting.php:45
+#: admin/partials/add-new/targeting.php:52
+msgid "Enable"
+msgstr ""
+
+#: admin/partials/add-new/targeting.php:50
+msgid "Show after popup"
+msgstr ""
+
+#: admin/partials/add_new.php:22
+msgid "Register an item name"
+msgstr ""
+
+#: admin/partials/add_new.php:39
+msgid "Publish"
+msgstr ""
+
+#: admin/partials/add_new.php:51
+msgid "You can preview the changed settings after the click \"Update\"."
+msgstr ""
+
+#: admin/partials/add_new.php:52
+msgid "Click Esc for close the modal window."
+msgstr ""
+
+#: admin/partials/add_new.php:63
+msgid "Delete"
+msgstr ""
+
+#: admin/partials/add_new.php:86
+msgid "Popup Settings"
+msgstr ""
+
+#: admin/partials/add_new.php:87
+msgid "Popup Style"
+msgstr ""
+
+#: admin/partials/add_new.php:88
+msgid "Close Settings"
+msgstr ""
+
+#: admin/partials/add_new.php:89
+msgid "Close Style"
+msgstr ""
+
+#: admin/partials/add_new.php:90
+msgid "Button"
+msgstr ""
+
+#: admin/partials/add_new.php:91
+msgid "Form"
+msgstr ""
+
+#: admin/partials/add_new.php:92
+msgid "Generate Icon"
+msgstr ""
+
+#: admin/partials/add_new.php:93
+msgid "Other"
+msgstr ""
+
+#: admin/partials/class-list-table.php:226
+msgid "Untitle"
+msgstr ""
+
+#: admin/partials/include-data.php:24 admin/partials/main.php:74
+msgid "Update"
+msgstr ""
+
+#: admin/partials/include-data.php:37 admin/partials/include-data.php:47
+msgid "Save"
+msgstr ""
+
+#: admin/partials/items.php:91 includes/about/wow-plugins.php:93
+msgid "Active Installs"
+msgstr ""
+
+#: admin/partials/list.php:20
+msgid "Search"
+msgstr ""
+
+#: admin/partials/main.php:20
+msgid "List"
+msgstr ""
+
+#: admin/partials/main.php:21
+msgid "Add new"
+msgstr ""
+
+#: admin/partials/main.php:22
+msgid "Pro Features"
+msgstr ""
+
+#: admin/partials/main.php:23
+msgid "Support"
+msgstr ""
+
+#: admin/partials/main.php:24 includes/about/main.php:108
+msgid "Plugins"
+msgstr ""
+
+#: admin/partials/main.php:57
+msgid "Add New"
+msgstr ""
+
+#: admin/partials/main.php:63
+#, php-format
+msgid ""
+"We want to hear your Ideas about improving the plugin. <a href=\"%1$s\" "
+"target=\"_blank\">Send Message</a>!"
+msgstr ""
+
+#: admin/partials/support.php:64
+msgid "Please, Enter your First Name."
+msgstr ""
+
+#: admin/partials/support.php:67
+msgid "Please, Enter your Last Name."
+msgstr ""
+
+#: admin/partials/support.php:70
+msgid "Please, Enter your Message."
+msgstr ""
+
+#: admin/partials/support.php:73
+msgid "Please, Enter your Email."
+msgstr ""
+
+#: admin/partials/support.php:102
+msgid "Your Message sent to the Support."
+msgstr ""
+
+#: admin/partials/support.php:108
+msgid ""
+"Sorry, but message did not send. Please, contact us support@wow-company.com"
+msgstr ""
+
+#: admin/partials/support.php:118
+msgid "First Name"
+msgstr ""
+
+#: admin/partials/support.php:120
+msgid "Enter Your First Name"
+msgstr ""
+
+#: admin/partials/support.php:123
+msgid "Last Name"
+msgstr ""
+
+#: admin/partials/support.php:125
+msgid "Enter Your Last Name"
+msgstr ""
+
+#: admin/partials/support.php:130
+msgid "WebSite"
+msgstr ""
+
+#: admin/partials/support.php:134
+msgid "Contact email"
+msgstr ""
+
+#: admin/partials/support.php:142
+msgid "Plugin"
+msgstr ""
+
+#: admin/partials/support.php:148
+msgid "Message type"
+msgstr ""
+
+#: admin/partials/support.php:150
+msgid "Issue"
+msgstr ""
+
+#: admin/partials/support.php:151
+msgid "Idea"
+msgstr ""
+
+#: admin/partials/support.php:159
+msgid "Enter Your Message"
+msgstr ""
+
+#: admin/partials/support.php:165
+msgid "Send to Support"
+msgstr ""
+
+#: admin/partials/tools-data-base.php:16
+msgid "Record Added"
+msgstr ""
+
+#: admin/partials/tools-data-base.php:19
+msgid "Record Updated"
+msgstr ""
+
+#: admin/partials/tools-data-base.php:25
+msgid "Record Deleted"
+msgstr ""
+
+#: includes/about/main.php:95
+msgid "Welcome"
+msgstr ""
+
+#: includes/about/main.php:98
+msgid ""
+"Congratulations! You are about to use one of the plugins from Wow-Company."
+msgstr ""
+
+#: modal-window.php:70 modal-window.php:75
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Modal Window"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/modal-window/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Create popups. Insert any content. Trigger on anything."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wow-Company"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wow-estore.com/author/admin/?author_downloads=true"
+msgstr ""

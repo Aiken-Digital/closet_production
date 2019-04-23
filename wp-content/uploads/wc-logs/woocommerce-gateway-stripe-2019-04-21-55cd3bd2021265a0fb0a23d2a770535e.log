@@ -1,0 +1,291 @@
+2019-04-21T09:37:09+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Redirecting to Stripe Checkout page for order 1405
+====End Log====
+
+
+2019-04-21T12:34:50+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Redirecting to Stripe Checkout page for order 1414
+====End Log====
+
+
+2019-04-21T12:35:26+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+sources/src_1ERetFF71WWm3Cm5nGKZUXfY
+====End Log====
+
+
+2019-04-21T12:35:27+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers request: Array
+(
+    [email] => germaine.ng@fixx.digital
+    [description] => Name: Germaine Test Username: germaine.ng
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2019-04-21T12:35:28+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd/sources request: Array
+(
+    [source] => src_1ERetFF71WWm3Cm5nGKZUXfY
+)
+
+====End Log====
+
+
+2019-04-21T12:35:29+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd request: Array
+(
+    [default_source] => src_1ERetFF71WWm3Cm5nGKZUXfY
+)
+
+====End Log====
+
+
+2019-04-21T12:35:30+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Info: Begin processing payment for order 1414 for the amount of 840.00
+====End Log====
+
+
+2019-04-21T12:35:30+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 84000
+    [description] => Closet - Order 1414
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Germaine Test
+            [customer_email] => germaine.ng@fixx.digital
+            [order_id] => 1414
+        )
+
+    [customer] => cus_EvVvvrd1GANKqd
+    [source] => src_1ERetFF71WWm3Cm5nGKZUXfY
+)
+
+====End Log====
+
+
+2019-04-21T12:35:31+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1ERetLF71WWm3Cm5RsbbybHP
+    [object] => charge
+    [amount] => 84000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1ERetLF71WWm3Cm5salHP4ow
+            [object] => balance_transaction
+            [amount] => 84000
+            [available_on] => 1556409600
+            [created] => 1555850131
+            [currency] => sgd
+            [description] => Closet - Order 1414
+            [exchange_rate] => 
+            [fee] => 2906
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 2906
+                            [application] => 
+                            [currency] => sgd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 81094
+            [source] => ch_1ERetLF71WWm3Cm5RsbbybHP
+            [status] => pending
+            [type] => charge
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => germaine.ng@fixx.digital
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1555850131
+    [currency] => sgd
+    [customer] => cus_EvVvvrd1GANKqd
+    [description] => Closet - Order 1414
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Germaine Test
+            [customer_email] => germaine.ng@fixx.digital
+            [order_id] => 1414
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 36
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1ERetFF71WWm3Cm5nGKZUXfY
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1ENu5QF71WWm3Cm5/ch_1ERetLF71WWm3Cm5RsbbybHP/rcpt_EvVv2keE1MYd8UySs3bqsTUqDLhK5Up
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1ERetLF71WWm3Cm5RsbbybHP/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1ERetFF71WWm3Cm5nGKZUXfY
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [three_d_secure] => optional
+                    [name] => 
+                    [address_line1_check] => 
+                    [address_zip_check] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_EvVv9cSeNMB7ca7dnxZPCoah
+            [created] => 1555850131
+            [currency] => 
+            [customer] => cus_EvVvvrd1GANKqd
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => 
+                    [name] => germaine.ng@fixx.digital
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
