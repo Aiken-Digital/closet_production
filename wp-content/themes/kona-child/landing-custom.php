@@ -70,29 +70,31 @@
     </section>
 
     <section class="wrapper s-wrapper">
-        <h4 class="s-title">NEW</h4>
-        <p class="sub-title">New pieces to its latest creations</p>
+        <h4 class="s-title"><?php echo $data['product_section']['section_name'];?></h4>
+        <p class="sub-title"><?php echo $data['product_section']['section_description'];?></p>
         <div class="multiple-items -new-items row new-items-wrap">
           <?php 
             // 'stock' => 1,
             $args = array( 'post_type' => 'product', 'posts_per_page' => (int)$data['total_product_show'], 'orderby' =>'id','order' => 'DESC' );
             $loop = new WP_Query( $args );
             while ( $loop->have_posts() ) : $loop->the_post(); global $product; ?>
-                <a href="<?php the_permalink(); ?>" class="single-items">
-                    <div class="single-items--img">
-                        <img src="<?php the_post_thumbnail_url();?>" alt="">
-                    </div>
-                    <div class="single-items--des"> 
-                        <p class="brand">
-                            <?php
-                                $brand = wp_get_post_terms( get_the_ID(), 'product_brand', array( 'fields' => 'names' ) ); 
-                                echo $brand[0];
-                            ?>
-                        </p>
-                        <p class="model"><?php the_title(); ?></p>
-                        <p class="price">SGD <?php echo $product->get_price(); ?></p>
-                    </div>
-                </a>
+                <?php if (get_the_title() !== ''): ?>
+                    <a href="<?php the_permalink(); ?>" class="single-items">
+                        <div class="single-items--img">
+                            <img src="<?php the_post_thumbnail_url();?>" alt="">
+                        </div>
+                        <div class="single-items--des"> 
+                            <p class="brand">
+                                <?php
+                                    $brand = wp_get_post_terms( get_the_ID(), 'product_brand', array( 'fields' => 'names' ) ); 
+                                    echo $brand[0];
+                                ?>
+                            </p>
+                            <p class="model"><?php the_title(); ?></p>
+                            <p class="price">SGD <?php echo $product->get_price(); ?></p>
+                        </div>
+                    </a>
+                <?php endif ?>
             <?php endwhile; ?>
         </div>
 
