@@ -48,7 +48,12 @@ function kona_maintitle_start() {
 	} else {
 		$title = __( 'Shop', 'kona' );
 	}
-	echo '<div class="woo_main_title"><h3 class="main_title"><strong>' . esc_html($title) . '</strong></h3>';
+
+	if ($title === 'Shop') {
+		echo '<div class="woo_main_title">';
+	} else {
+		echo '<div class="woo_main_title"><h3 class="main_title"><strong>' . esc_html($title) . '</strong></h3>';
+	}
 }
 add_action( 'woocommerce_before_main_content', 'kona_maintitle_end', 21 );
 function kona_maintitle_end() { 

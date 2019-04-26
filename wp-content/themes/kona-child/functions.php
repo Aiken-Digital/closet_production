@@ -37,7 +37,7 @@ function woocommerce_brand_summary() {
 	$brands = wp_get_post_terms( $post->ID, 'product_brand', array("fields" => "all") );
 	foreach( $brands as $brand ) {
 		echo '<h3>'.$brand->name.'</h3>';
-		echo '<p>'.$brand->description.'</p>';
+		_e('<p>'.$brand->description.'</p>');
 	}
 }
 add_shortcode('brand_summary', 'woocommerce_brand_summary');
@@ -63,6 +63,21 @@ function get_all_brand()
 }
 
 
+function get_this_page()
+{
+    global $wp;
+    $current_url = home_url( add_query_arg( array(), $wp->request ) );
+    return $current_url;
+}
+
+function language_param()
+{
+    global $wp;
+    $data = add_query_arg( array(), $wp->request );
+    $rep = str_replace('/closet', '', $data);
+    return $data;   
+}
+
 function my_account_menu_order() {
  	$menuOrder = array(
  		'dashboard'          => __( '[:jp]マイアカウント[:en]Dashboard', 'woocommerce' ),
@@ -75,5 +90,12 @@ function my_account_menu_order() {
  	);
  	return $menuOrder;
 }
+
+function remove_my_account_links( $menu_links ){
+    unset( $menu_links['refund-requests'] ); 
+    return $menu_links;
+}
+
+add_filter ( 'woocommerce_account_menu_items', 'remove_my_account_links', 999 );
 add_filter ( 'woocommerce_account_menu_items', 'my_account_menu_order' );
 ?>

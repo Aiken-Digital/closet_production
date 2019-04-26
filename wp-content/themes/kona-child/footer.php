@@ -57,11 +57,7 @@ if ($footerEmpty) { $hideFooter = true; }
             <?php if (get_option('_sr_footerbottom') || get_option('_sr_footercopyright')) { ?>
             <div class="footer-bottom">
                 <?php echo wp_kses_post(do_shortcode(stripslashes(get_option('_sr_footerbottom')))); ?>
-				<div id="search-3" class="widget widget_search clearfix" style="
-    float: right;
-    width: 260px;
-    margin: 0;
-">
+				<div id="search-3" class="widget widget_search clearfix">
 					<form role="search" method="get" id="searchform" class="searchform" action="http://fixxstaging.com/closet/">
     <div>
         <label class="screen-reader-text" for="s">Search for:</label>
@@ -115,6 +111,14 @@ if ($footerEmpty) { $hideFooter = true; }
     
 </div> <!-- END #page-content -->
 <!-- PAGE CONTENT -->
+<script>
+    jQuery(document).ready(function() {
+        jQuery('#change_curr').change(function(){
+            var url = jQuery('#change_curr').val();
+            window.location.href = url;
+        });
+    });    
+</script>
 <script type='text/javascript'>
 (function (d, t) {
  var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];

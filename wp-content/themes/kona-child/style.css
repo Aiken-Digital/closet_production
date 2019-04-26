@@ -15,6 +15,45 @@
 /* -----------------------------------
 	CHILD CSS
 ------------------------------------- */
+.active {
+    
+}
+.ywcars_button_refund{
+	display:none;
+}
+#wc-stripe-payment-request-wrapper{
+	display: none;
+}
+#custom_html-4{
+	margin-top: 0px;
+}
+#search-3{
+    float: right;
+    width: 260px;
+    margin: 0;
+}
+.children li a{
+    
+}
+.social_network a{
+	font-size: 14px;
+}
+.icon_sn{
+    float: left;
+    width: 20px;
+}
+.child_sn{
+    
+}
+.link_sn{
+	
+}
+.link_sn a{
+	
+}
+.social_network{
+    
+}
 .designers-selector-bar {
     position: relative;
     background-color: #efefef;

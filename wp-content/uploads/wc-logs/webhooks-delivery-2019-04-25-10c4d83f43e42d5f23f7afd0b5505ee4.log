@@ -1,0 +1,295 @@
+2019-04-25T09:43:13+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 6d7f849528dbaeb84b361cf472afeab3
+            [Date] => Apr 25, 2019 @ 9:43
+            [URL] => https://closetbetastore.vendhq.com/channel_webhooks/1118479979888668672
+            [Duration] => 1.57077
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/3.5.7 Hookshot (WordPress/5.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://fixxstaging.com/closet/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 55pGriwOZBCbKUCpX8UuS5my10/aIS6AOGEGlGRlpTM=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 6d7f849528dbaeb84b361cf472afeab3
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 202
+                    [Message] => Accepted
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Thu, 25 Apr 2019 09:43:13 GMT
+                                    [content-type] => application/octet-stream
+                                    [content-length] => 0
+                                    [server] => openresty
+                                    [x-amzn-trace-id] => Root=1-5cc18131-0294a85181b1d8d59c5e070c
+                                    [vend-rid] => 0294a85181b1d8d59c5e070c
+                                    [vend-ingress] => duke-5d7c13991cb1
+                                    [vend-canary] => rata_street
+                                    [x-webkit-csp] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-content-security-policy] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-frame-options] => SAMEORIGIN
+                                    [content-security-policy] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-hue] => router-0534f761f0e0bbd77
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2019-04-25T09:43:14+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => e54fa4fe6b06166698463a3f17dc70f3
+            [Date] => Apr 25, 2019 @ 9:43
+            [URL] => https://closetbetastore.vendhq.com/channel_webhooks/1118479979888668672
+            [Duration] => 1.09538
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/3.5.7 Hookshot (WordPress/5.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://fixxstaging.com/closet/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => b3h6mkcgwLABfXVsuGWEGf8B25ZSxYE6F5d/7sdIdzA=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => e54fa4fe6b06166698463a3f17dc70f3
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 202
+                    [Message] => Accepted
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Thu, 25 Apr 2019 09:43:14 GMT
+                                    [content-type] => application/octet-stream
+                                    [content-length] => 0
+                                    [server] => openresty
+                                    [x-amzn-trace-id] => Root=1-5cc18132-b9ee4e085f86dfe24d9e2bef
+                                    [vend-rid] => b9ee4e085f86dfe24d9e2bef
+                                    [vend-ingress] => duke-b258e9e07e44
+                                    [vend-canary] => rata_street
+                                    [x-webkit-csp] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-content-security-policy] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-frame-options] => SAMEORIGIN
+                                    [content-security-policy] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-hue] => router-0973f2ed495299b83
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2019-04-25T09:43:19+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 44881992a1d2287d1c8a70cbf0b9af6d
+            [Date] => Apr 25, 2019 @ 9:43
+            [URL] => https://closetbetastore.vendhq.com/channel_webhooks/1118479979888668672
+            [Duration] => 1.11283
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/3.5.7 Hookshot (WordPress/5.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://fixxstaging.com/closet/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => 3ivP4bXbGYClWGi24eCfCsGzGEgJ2BW+jN2dWwvheIM=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 44881992a1d2287d1c8a70cbf0b9af6d
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 202
+                    [Message] => Accepted
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Thu, 25 Apr 2019 09:43:19 GMT
+                                    [content-type] => application/octet-stream
+                                    [content-length] => 0
+                                    [server] => openresty
+                                    [x-amzn-trace-id] => Root=1-5cc18136-33ace1321d3294689fb8afa6
+                                    [vend-rid] => 33ace1321d3294689fb8afa6
+                                    [vend-ingress] => duke-63757a1cf8d6
+                                    [vend-canary] => rata_street
+                                    [x-webkit-csp] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-content-security-policy] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-frame-options] => SAMEORIGIN
+                                    [content-security-policy] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-hue] => router-0973f2ed495299b83
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2019-04-25T11:25:09+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => c4c7890183acaf2da9b630dfdb40cb9e
+            [Date] => Apr 25, 2019 @ 11:25
+            [URL] => https://closetbetastore.vendhq.com/channel_webhooks/1118479979888668672
+            [Duration] => 1.40643
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/3.5.7 Hookshot (WordPress/5.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://fixxstaging.com/closet/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 04YMBK/XVqJoqbsu+q8IfgfMchPxpK7J0ZhE+DFv/Q0=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => c4c7890183acaf2da9b630dfdb40cb9e
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 202
+                    [Message] => Accepted
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Thu, 25 Apr 2019 11:25:09 GMT
+                                    [content-type] => application/octet-stream
+                                    [content-length] => 0
+                                    [server] => openresty
+                                    [x-amzn-trace-id] => Root=1-5cc19914-2896c9a4d09b175834e96932
+                                    [vend-rid] => 2896c9a4d09b175834e96932
+                                    [vend-ingress] => duke-5d7c13991cb1
+                                    [vend-canary] => rata_street
+                                    [x-webkit-csp] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-content-security-policy] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-frame-options] => SAMEORIGIN
+                                    [content-security-policy] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-hue] => router-0ee11966e862f89f2
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2019-04-25T11:25:10+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 18492d1d93424bba9a6e6c069d7e53ab
+            [Date] => Apr 25, 2019 @ 11:25
+            [URL] => https://closetbetastore.vendhq.com/channel_webhooks/1118479979888668672
+            [Duration] => 1.18948
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/3.5.7 Hookshot (WordPress/5.1.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://fixxstaging.com/closet/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => 04YMBK/XVqJoqbsu+q8IfgfMchPxpK7J0ZhE+DFv/Q0=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 18492d1d93424bba9a6e6c069d7e53ab
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 202
+                    [Message] => Accepted
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Thu, 25 Apr 2019 11:25:10 GMT
+                                    [content-type] => application/octet-stream
+                                    [content-length] => 0
+                                    [server] => openresty
+                                    [x-amzn-trace-id] => Root=1-5cc19916-19e02a6ce87edcbc6d9951a1
+                                    [vend-rid] => 19e02a6ce87edcbc6d9951a1
+                                    [vend-ingress] => duke-e37031d529d1
+                                    [vend-canary] => rata_street
+                                    [x-webkit-csp] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-content-security-policy] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-frame-options] => SAMEORIGIN
+                                    [content-security-policy] => frame-ancestors 'self' *.vendhq.com; report-uri https://csp.api.vendhq.com/prod/report;
+                                    [x-hue] => router-0973f2ed495299b83
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+

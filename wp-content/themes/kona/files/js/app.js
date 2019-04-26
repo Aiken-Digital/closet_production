@@ -43,9 +43,33 @@ jQuery(document).ready(function(){
 	jQuery(window).resize(function() {
 	    jQuery('#header').css("margin-top", jQuery(".top-nav").height());
 	}).resize();
-
-
-
 	// END Navigation
 
+
+	//equal height
+	jQuery.fn.equalHeights = function(){
+		var max_height = 0;
+		jQuery(this).each(function(){
+			max_height = Math.max(jQuery(this).height(), max_height);
+		});
+		jQuery(this).each(function(){
+			jQuery(this).height(max_height);
+		});
+	};
+
+	setTimeout(function(){ 
+		jQuery('.single-items--des').equalHeights();
+	}, 333);
+
+	// END equal height
+
+	// Overlay Banner
+	if(jQuery('.banner-desc__small').find('.overlay').length !== 0){
+		jQuery('.banner-desc__small').css('width','70%');
+		jQuery('.banner-desc__small').find('.overlay').css('width','100%');
+	}
+	// END Overlay Banner
+
 });
+
+

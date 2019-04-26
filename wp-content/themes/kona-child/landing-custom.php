@@ -18,9 +18,11 @@
         <div class="forcefullwidth_wrapper_tp_banner">
             <div class="herobanner-wrap">
                 <div class="herobanner-wrap--desc">
-                    <p class="type-label">Featured Designer</p>
-                    <div class="banner-title"><?php echo $data['featured_post']['title'];?></div>
-                    <p class="desc"><?php echo $data['featured_post']['description'];?></p>
+                    <div class="">
+                        <p class="type-label">Featured Designer</p>
+                        <div class="banner-title"><?php echo $data['featured_post']['title'];?></div>
+                        <p class="desc"><?php echo $data['featured_post']['description'];?></p>
+                    </div>
                     <a href="<?php echo $data['featured_post']['link_url'];?>" class="cta">
                         <?php echo $data['featured_post']['button_text'];?>
                     </a>
@@ -54,9 +56,11 @@
                     <div class="lookbook--img">
                         <img src="<?php echo $data['first_jumbotron']['landscape_image'];?>">
                     </div>
-                    <div class="banner-desc banner-desc__right banner-desc__small">
-                        <div class="banner-title"><?php echo $data['first_jumbotron']['title'];?></div>
-                        <p class="desc"><?php echo $data['first_jumbotron']['description'];?>.</p>
+                    <div class="banner-desc banner-desc__right banner-desc__small banner-desc__top">
+                        <div class="">
+                            <div class="banner-title"><?php echo $data['first_jumbotron']['title'];?></div>
+                            <p class="desc"><?php echo $data['first_jumbotron']['description'];?>.</p>
+                        </div>
                         <a href="<?php echo $data['first_jumbotron']['button_url'];?>" class="cta">
                             <?php echo $data['first_jumbotron']['button_text'];?>
                         </a>
@@ -70,31 +74,30 @@
     </section>
 
     <section class="wrapper s-wrapper">
-        <h4 class="s-title"><?php echo $data['product_section']['section_name'];?></h4>
-        <p class="sub-title"><?php echo $data['product_section']['section_description'];?></p>
+        <h4 class="s-title">NEW</h4>
+        <p class="sub-title">New pieces to its latest creations</p>
         <div class="multiple-items -new-items row new-items-wrap">
           <?php 
             // 'stock' => 1,
             $args = array( 'post_type' => 'product', 'posts_per_page' => (int)$data['total_product_show'], 'orderby' =>'id','order' => 'DESC' );
             $loop = new WP_Query( $args );
             while ( $loop->have_posts() ) : $loop->the_post(); global $product; ?>
-                <?php if (get_the_title() !== ''): ?>
-                    <a href="<?php the_permalink(); ?>" class="single-items">
-                        <div class="single-items--img">
-                            <img src="<?php the_post_thumbnail_url();?>" alt="">
-                        </div>
-                        <div class="single-items--des"> 
-                            <p class="brand">
-                                <?php
-                                    $brand = wp_get_post_terms( get_the_ID(), 'product_brand', array( 'fields' => 'names' ) ); 
-                                    echo $brand[0];
-                                ?>
-                            </p>
-                            <p class="model"><?php the_title(); ?></p>
-                            <p class="price">SGD <?php echo $product->get_price(); ?></p>
-                        </div>
-                    </a>
-                <?php endif ?>
+                <a href="<?php the_permalink(); ?>" class="single-items">
+                    <div class="single-items--img">
+                        <img src="<?php the_post_thumbnail_url();?>" alt="">
+                    </div>
+                    <div class="single-items--des"> 
+                        <p class="brand">
+                            <?php
+                                foreach( wp_get_post_terms( get_the_id(), 'product_cat' ) as $term ){
+                                    if( $term ){echo $term->name;if ($i >= 1) { break;}$i++; }
+                                }
+                            ?>
+                        </p>
+                        <p class="model"><?php the_title(); ?></p>
+                        <p class="price">SGD <?php echo $product->get_price(); ?></p>
+                    </div>
+                </a>
             <?php endwhile; ?>
         </div>
 
@@ -146,13 +149,10 @@
                     </div>
                 <?php endforeach ?>
             </div>
-
         </section>
-
     <section class="wrapper s-wrapper">
         <h4 class="s-title"><?php echo $data['twins_jumbotron']['category_title'];?></h4>
         <p class="sub-title"><?php echo $data['twins_jumbotron']['category_description'];?></p>
-
         <div class="row lookbook">
             <?php foreach ($data['twins_jumbotron']['twin_jumbotron'] as $key => $value): ?>
                 <div class="col-md-6">
@@ -161,9 +161,11 @@
                             <img src="<?php echo $value['image'];?>">
                         </div>
                         <div class="banner-desc banner-desc__small">
-                            <p class="type-label"><?php echo $value['category'];?></p>
-                            <div class="banner-title"><?php echo $value['title'];?></div>
-                            <p class="desc"><?php echo $value['description'];?></p>
+                            <div class="">
+                                <p class="type-label"><?php echo $value['category'];?></p>
+                                <div class="banner-title"><?php echo $value['title'];?></div>
+                                <p class="desc"><?php echo $value['description'];?></p>
+                            </div>
                             <?php if (!empty($value['button_text'])): ?>
                                 <a href="<?php echo $value['button_url'];?>" class="cta">
                                     <?php echo $value['button_text'];?>
@@ -174,36 +176,34 @@
                 </div>
             <?php endforeach ?>
         </div>
-
     </section>
-
-    <section class="">
+    <section class="s-wrapper p-b-0">
         <h4 class="s-title"><?php echo $data['last_jumbotron']['section_title'];?></h4>
         <p class="sub-title"><?php echo $data['last_jumbotron']['section_description'];?></p>
-
         <div class="row lookbook">
             <div class="col-md-12">
                 <div class="lookbook--single">  
-                    <div class="lookbook--img">
-                        <img src="<?php echo $data['last_jumbotron']['image'];?>">
+                    <div class="s-bg" style="background-image: url(<?php template_dir(); ?>/files/assets/landing/designer-focus.jpg)">
                     </div>
-                    <div class="banner-desc banner-desc__large banner-desc__exsmall">
-                        <p class="type-label"><?php echo $data['last_jumbotron']['category_title'];?></p>
-                        <div class="banner-title"><?php echo $data['last_jumbotron']['title'];?></div>
-                        <p class="desc"><?php echo $data['last_jumbotron']['description'];?>.</p>
-                        <a href="<?php echo $data['last_jumbotron']['button_url'];?>" class="cta">
-                            <?php echo $data['last_jumbotron']['button_title'];?>
-                        </a>
+                    <div class="banner-desc-wrap">
+                        <div class="banner-desc banner-desc__large banner-desc__exsmall">
+                            <div class="">
+                                <p class="type-label"><?php echo $data['last_jumbotron']['category_title'];?></p>
+                                <div class="banner-title"><?php echo $data['last_jumbotron']['title'];?></div>
+                                <p class="desc"><?php echo $data['last_jumbotron']['description'];?>.</p>
+                            </div>
+                            <a href="<?php echo $data['last_jumbotron']['button_url'];?>" class="cta">
+                                <?php echo $data['last_jumbotron']['button_title'];?>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
             
         </div>
-
     </section>
-
     <a href="#wow-modal-id-1" class="float-corner">
         <img src="<?php template_dir(); ?>/files/assets/newsletter-icon.gif">
     </a>
 <?php //echo do_shortcode( '[mc4wp_form id="1300"]' );?>
-<?php get_footer(); ?>
+<?php get_footer();?>

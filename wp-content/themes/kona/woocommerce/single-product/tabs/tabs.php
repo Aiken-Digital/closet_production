@@ -38,7 +38,7 @@ if ( ! empty( $tabs ) ) : ?>
 		<ul class="tab-nav clearfix wc-tabs">
 				<li class="brand_tab">
                 	<h5 class="tab-name">
-					<a href="#tab-brand">Designer</a>
+					<a href="#tab-brand"><?php _e('[:jp]デザイナー[:en]Designer');?></a>
                     </h5>
 				</li>
 			<?php foreach ( $tabs as $key => $tab ) : ?>

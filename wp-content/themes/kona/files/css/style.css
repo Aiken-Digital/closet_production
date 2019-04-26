@@ -200,6 +200,7 @@ html {
 	-webkit-text-size-adjust: 100%; /* Prevent iOS text size adjust on orientation change without disabling user zoom */
 	-ms-text-size-adjust: 100%;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 	}
 	html.disablescroll { 
 	overflow: hidden;  /* SPAB RICE */
@@ -1159,8 +1160,8 @@ ol.biglist li {
 	}
 	
 ul li:first-child, 
-ol li:first-child { 
-	margin-top: 0; 
+ol li:first-child {
+	margin-top: 6px;
 	}
 
 dl {
@@ -5024,7 +5025,6 @@ div[class*='spacer-'] + h6 {
 	
 .widget ul:not(.socialmedia-widget) ul.sub-menu li a, .widget ul:not(.socialmedia-widget) ul.children li a {
 	font-size: 0.85em;
-	line-height: 1.5em;
 	}
 	
 	
@@ -5349,6 +5349,7 @@ div[class*='spacer-'] + h6 {
 
 .widget .wcapf-layered-nav .children li a {
 	font-weight: 300;
+	margin-bottom: 0px;
 }
 
 .widget .wcapf-layered-nav li.chosen .children {
@@ -5376,7 +5377,7 @@ div[class*='spacer-'] + h6 {
 
 .widget .wcapf-layered-nav ul li {
 	margin: 0 !important;
-	margin-bottom: 5px !important;
+	margin-bottom: 2px !important;
 	position: relative;
 	display: inline-block;
 	margin-right: 20px !important;

@@ -44,7 +44,7 @@ function headerFeatures() {
 	var selector = "#hero";
 	
 	/* sticky transform */
-	if (currY > 100) {
+	if (currY > 25) {
 		jQuery('body').addClass('scrolled');
 	} else {
 		jQuery('body').removeClass('scrolled');

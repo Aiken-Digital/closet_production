@@ -1,0 +1,817 @@
+2019-04-26T03:31:23+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-26T03:31:27+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-26T03:31:30+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-26T03:31:32+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-26T03:31:43+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+sources/src_1EO5B1F71WWm3Cm52UaMy1zz
+====End Log====
+
+
+2019-04-26T03:31:44+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Info: Begin processing payment for order 1657 for the amount of 419680.00
+====End Log====
+
+
+2019-04-26T03:31:44+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+charges request: Array
+(
+    [currency] => jpy
+    [amount] => 419680
+    [description] => Closet - Order 1657
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 1657
+        )
+
+    [customer] => cus_ErooBdwhs13qwC
+    [source] => src_1EO5B1F71WWm3Cm52UaMy1zz
+)
+
+====End Log====
+
+
+2019-04-26T03:31:46+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1ETKmrF71WWm3Cm5UmYoHUtE
+    [object] => charge
+    [amount] => 419680
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1ETKmsF71WWm3Cm5Bi0WZDQM
+            [object] => balance_transaction
+            [amount] => 502588
+            [available_on] => 1556841600
+            [created] => 1556249505
+            [currency] => sgd
+            [description] => Closet - Order 1657
+            [exchange_rate] => 1.19755
+            [fee] => 17138
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 17138
+                            [application] => 
+                            [currency] => sgd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 485450
+            [source] => ch_1ETKmrF71WWm3Cm5UmYoHUtE
+            [status] => pending
+            [type] => charge
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => masitingss@gmail.com
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1556249505
+    [currency] => jpy
+    [customer] => cus_ErooBdwhs13qwC
+    [description] => Closet - Order 1657
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 1657
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 5
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1EO5B1F71WWm3Cm52UaMy1zz
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1ENu5QF71WWm3Cm5/ch_1ETKmrF71WWm3Cm5UmYoHUtE/rcpt_ExFHMybf29Jee1CQJ0FFI3zYsEfoj6N
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1ETKmrF71WWm3Cm5UmYoHUtE/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1EO5B1F71WWm3Cm52UaMy1zz
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [funding] => credit
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [three_d_secure] => optional
+                    [name] => 
+                    [address_line1_check] => 
+                    [address_zip_check] => 
+                    [cvc_check] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_ErooEujZwtJjD0wP9tobveiF
+            [created] => 1556249505
+            [currency] => 
+            [customer] => cus_ErooBdwhs13qwC
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => 
+                    [name] => masitingss@gmail.com
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2019-04-26T03:53:04+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-26T03:53:07+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-26T03:53:13+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+sources/src_1EO5B1F71WWm3Cm52UaMy1zz
+====End Log====
+
+
+2019-04-26T03:53:14+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Info: Begin processing payment for order 1662 for the amount of 153062.00
+====End Log====
+
+
+2019-04-26T03:53:14+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+charges request: Array
+(
+    [currency] => jpy
+    [amount] => 153062
+    [description] => Closet - Order 1662
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 1662
+        )
+
+    [customer] => cus_ErooBdwhs13qwC
+    [source] => src_1EO5B1F71WWm3Cm52UaMy1zz
+)
+
+====End Log====
+
+
+2019-04-26T03:53:15+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1ETL7fF71WWm3Cm5vDjH0Wmd
+    [object] => charge
+    [amount] => 153062
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1ETL7fF71WWm3Cm5MmxCawqM
+            [object] => balance_transaction
+            [amount] => 183299
+            [available_on] => 1556841600
+            [created] => 1556250795
+            [currency] => sgd
+            [description] => Closet - Order 1662
+            [exchange_rate] => 1.19755
+            [fee] => 6282
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 6282
+                            [application] => 
+                            [currency] => sgd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 177017
+            [source] => ch_1ETL7fF71WWm3Cm5vDjH0Wmd
+            [status] => pending
+            [type] => charge
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => masitingss@gmail.com
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1556250795
+    [currency] => jpy
+    [customer] => cus_ErooBdwhs13qwC
+    [description] => Closet - Order 1662
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 1662
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 23
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1EO5B1F71WWm3Cm52UaMy1zz
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1ENu5QF71WWm3Cm5/ch_1ETL7fF71WWm3Cm5vDjH0Wmd/rcpt_ExFc9JXPVhRmJxeTf9j4IOpqXGkEdh1
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1ETL7fF71WWm3Cm5vDjH0Wmd/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1EO5B1F71WWm3Cm52UaMy1zz
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [funding] => credit
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [three_d_secure] => optional
+                    [name] => 
+                    [address_line1_check] => 
+                    [address_zip_check] => 
+                    [cvc_check] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_ErooEujZwtJjD0wP9tobveiF
+            [created] => 1556250795
+            [currency] => 
+            [customer] => cus_ErooBdwhs13qwC
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => 
+                    [name] => masitingss@gmail.com
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2019-04-26T06:27:13+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Redirecting to Stripe Checkout page for order 1668
+====End Log====
+
+
+2019-04-26T06:48:53+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+sources/src_1ETNrdF71WWm3Cm5v3GGUW3Z
+====End Log====
+
+
+2019-04-26T06:48:54+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Info: Begin processing payment for order 1668 for the amount of 930.00
+====End Log====
+
+
+2019-04-26T06:48:54+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 93000
+    [description] => Closet - Order 1668
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Natasha Sakuma
+            [customer_email] => n.naomi09@gmail.com
+            [order_id] => 1668
+        )
+
+    [source] => src_1ETNrdF71WWm3Cm5v3GGUW3Z
+)
+
+====End Log====
+
+
+2019-04-26T06:48:56+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1ETNrfF71WWm3Cm599uxdteW
+    [object] => charge
+    [amount] => 93000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1ETNrfF71WWm3Cm5seIF2k3k
+            [object] => balance_transaction
+            [amount] => 93000
+            [available_on] => 1556841600
+            [created] => 1556261335
+            [currency] => sgd
+            [description] => Closet - Order 1668
+            [exchange_rate] => 
+            [fee] => 3212
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 3212
+                            [application] => 
+                            [currency] => sgd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 89788
+            [source] => ch_1ETNrfF71WWm3Cm599uxdteW
+            [status] => pending
+            [type] => charge
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => n.naomi09@gmail.com
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1556261335
+    [currency] => sgd
+    [customer] => 
+    [description] => Closet - Order 1668
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Natasha Sakuma
+            [customer_email] => n.naomi09@gmail.com
+            [order_id] => 1668
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 3
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1ETNrdF71WWm3Cm5v3GGUW3Z
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1ENu5QF71WWm3Cm5/ch_1ETNrfF71WWm3Cm599uxdteW/rcpt_ExIStYiHsrE3mQcnpFrk5k1HdyZiKS3
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1ETNrfF71WWm3Cm599uxdteW/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1ETNrdF71WWm3Cm5v3GGUW3Z
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [three_d_secure] => optional
+                    [name] => 
+                    [address_line1_check] => 
+                    [address_zip_check] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_ExIS9OrMETkBJlGl4gB5CacT
+            [created] => 1556261335
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => 
+                    [name] => n.naomi09@gmail.com
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2019-04-26T09:36:31+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-26T09:36:33+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-04-26T09:40:32+00:00 DEBUG 
+====Stripe Version: 4.1.15====
+====Start Log====
+Redirecting to Stripe Checkout page for order 1674
+====End Log====
+
+

@@ -61,20 +61,30 @@
                 </div>
                 <div class="top-nav--lay__right">
                     <div class="currency">
-                        <select>
-                          <option value="sgd">SGD</option>
-                          <option value="jyp">JYP</option>
+                        <select id="change_curr">
+                            <?php if (isset($_SESSION['woocs_current_currency'])): ?>
+                                <?php if ($_SESSION['woocs_current_currency'] === 'SGD'): ?>
+                                    <option value="<?php echo get_this_page(); ?>/?currency=SGD" selected>SGD</option>
+                                    <option value="<?php echo get_this_page(); ?>/?currency=JPY">JPY</option>
+                                <?php elseif ($_SESSION['woocs_current_currency'] === 'JPY') :?>
+                                    <option value="<?php echo get_this_page(); ?>/?currency=SGD">SGD</option>
+                                    <option value="<?php echo get_this_page(); ?>/?currency=JPY" selected>JPY</option>
+                                <?php endif ?>
+                            <?php else : ?> 
+                                <option value="<?php echo get_this_page(); ?>/?currency=SGD">SGD</option>
+                                <option value="<?php echo get_this_page(); ?>/?currency=JPY">JPY</option>
+                            <?php endif ?>
                         </select>
                     </div>
                     <div class="lan">
-                        <a class="active" href="http://fixxstaging.com/closet/en">
-                            <img src="<?php template_dir();?>/files/assets/landing/sg.png">
+                        <a <?php if (strpos($_SERVER['REQUEST_URI'], '/jp') === false) { echo 'class="active" style="opacity: 1;"'; } else { echo 'style="opacity: 0.5;"'; } ?> href="<?php echo get_bloginfo('wpurl') ?>/en/<?php echo language_param();?>">
+                             <img src="<?php template_dir();?>/files/assets/landing/sg.png">
                         </a>
                         <div class="divide">
                             |
                         </div>
-                        <a href="http://fixxstaging.com/closet/jp/">
-                            <img src="<?php template_dir();?>/files/assets/landing/jp.png">
+                        <a <?php if (strpos($_SERVER['REQUEST_URI'], '/jp') !== false) { echo 'class="active" style="opacity: 1;"'; } else { echo 'style="opacity: 0.5;"'; } ?> href="<?php echo get_bloginfo('wpurl') ?>/jp/<?php echo language_param();?>">
+                             <img src="<?php template_dir();?>/files/assets/landing/jp.png">
                         </a>
                     </div>
                 </div>

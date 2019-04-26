@@ -1,0 +1,54 @@
+2019-04-26T03:04:37+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:677
+Stack trace:
+#0 /home/fixxstaging/public_html/closet/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/fixxstaging/public_html/closet/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/fixxstaging/public_html/closet/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/fixxstaging/public_html/closet/wp-admin/admin-ajax.php(167): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown in /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 677
+
+2019-04-26T03:05:24+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:677
+Stack trace:
+#0 /home/fixxstaging/public_html/closet/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/fixxstaging/public_html/closet/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/fixxstaging/public_html/closet/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/fixxstaging/public_html/closet/wp-admin/admin-ajax.php(167): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown in /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 677
+
+2019-04-26T03:06:34+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:677
+Stack trace:
+#0 /home/fixxstaging/public_html/closet/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/fixxstaging/public_html/closet/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/fixxstaging/public_html/closet/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/fixxstaging/public_html/closet/wp-admin/admin-ajax.php(167): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown in /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 677
+
+2019-04-26T03:14:00+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:677
+Stack trace:
+#0 /home/fixxstaging/public_html/closet/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/fixxstaging/public_html/closet/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/fixxstaging/public_html/closet/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/fixxstaging/public_html/closet/wp-admin/admin-ajax.php(167): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown in /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 677
+
+2019-04-26T03:15:25+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:677
+Stack trace:
+#0 /home/fixxstaging/public_html/closet/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/fixxstaging/public_html/closet/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/fixxstaging/public_html/closet/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/fixxstaging/public_html/closet/wp-admin/admin-ajax.php(167): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown in /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 677
+
+2019-04-26T03:17:29+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:677
+Stack trace:
+#0 /home/fixxstaging/public_html/closet/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/fixxstaging/public_html/closet/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/fixxstaging/public_html/closet/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/fixxstaging/public_html/closet/wp-admin/admin-ajax.php(167): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown in /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 677
+
