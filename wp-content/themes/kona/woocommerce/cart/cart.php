@@ -32,10 +32,10 @@ wc_print_notices();?>
 	<table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents cart-page">
 		<thead>
 			<tr>
-				<th class="product-name"><?php _e( 'Product', 'kona' ); ?></th>
-				<th class="product-price"><?php _e( 'Price', 'kona' ); ?></th>
-				<th class="product-quantity"><?php _e( 'Quantity', 'kona' ); ?></th>
-				<th class="product-subtotal"><?php _e( 'Total', 'kona' ); ?></th>
+				<th class="product-name"><?php _e( '[:jp]商品名[:en]Product', 'kona' ); ?></th>
+				<th class="product-price"><?php _e( '[:jp]価格[:en]Price', 'kona' ); ?></th>
+				<th class="product-quantity"><?php _e( '[:jp]数量[:en]Quantity', 'kona' ); ?></th>
+				<th class="product-subtotal"><?php _e( '[:jp]合計[:en]Total', 'kona' ); ?></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -75,19 +75,19 @@ wc_print_notices();?>
 
 								// Backorder notification
 								if ( $_product->backorders_require_notification() && $_product->is_on_backorder( $cart_item['quantity'] ) ) {
-									echo '<p class="backorder_notification">' . esc_html__( 'Available on backorder', 'kona' ) . '</p>';
+									echo '<p class="backorder_notification">' . esc_html__( '[:jp]バックオーダー可能[:en]Available on backorder', 'kona' ) . '</p>';
 								}
 							?>
 							</div>
 						</td>
 
-						<td class="product-price" data-title="<?php esc_attr_e( 'Price', 'kona' ); ?>">
+						<td class="product-price" data-title="<?php esc_attr_e( '[:jp]価格[:en]Price', 'kona' ); ?>">
 							<?php
 								echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key );
 							?>
 						</td>
 
-						<td class="product-quantity" data-title="<?php esc_attr_e( 'Quantity', 'kona' ); ?>">
+						<td class="product-quantity" data-title="<?php esc_attr_e( '[:jp]数量[:en]Quantity', 'kona' ); ?>">
 							<?php
 								// displayed for mobile devices 
 								echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key );
@@ -113,7 +113,8 @@ wc_print_notices();?>
 								echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf(
 									'<a href="%s" class="remove" aria-label="%s" data-product_id="%s" data-product_sku="%s">%s</a>',
 									esc_url( wc_get_cart_remove_url( $cart_item_key ) ),
-									esc_html__( 'Remove this item', 'kona' ),
+									esc_html__( '[:jp]
+このアイテムを削除[:en]Remove this item', 'kona' ),
 									esc_attr( $product_id ),
 									esc_attr( $_product->get_sku() ),
 									""
@@ -121,7 +122,7 @@ wc_print_notices();?>
 							?>
 						</td>
 
-						<td class="product-subtotal" data-title="<?php esc_attr_e( 'Total', 'kona' ); ?>">
+						<td class="product-subtotal" data-title="<?php esc_attr_e( '[:jp]合計[:en]Total', 'kona' ); ?>">
 							<?php
 								echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key );
 							?>
@@ -130,7 +131,8 @@ wc_print_notices();?>
 								echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf(
 									'<a href="%s" class="remove" aria-label="%s" data-product_id="%s" data-product_sku="%s">%s</a>',
 									esc_url( wc_get_cart_remove_url( $cart_item_key ) ),
-									esc_html__( 'Remove this item', 'kona' ),
+									esc_html__( '[:jp]
+このアイテムを削除[:en]Remove this item', 'kona' ),
 									esc_attr( $product_id ),
 									esc_attr( $_product->get_sku() ),
 									esc_html__( 'Remove', 'kona' )
@@ -151,9 +153,10 @@ wc_print_notices();?>
 					<?php if ( wc_coupons_enabled() ) { ?>
 						<div class="sr-coupon">
 							<p class="form-row">
-								<label for="coupon_code"><?php esc_html_e( 'Coupon code', 'kona' ); ?></label>
-								<input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php esc_attr_e( 'Coupon code', 'kona' ); ?>" /> 
-								<button type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'kona' ); ?>"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 13.2 9">
+								<label for="coupon_code"><?php esc_html_e( '[:jp]クーポンコードを入力[:en]Coupon code', 'kona' ); ?></label>
+								<input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php esc_attr_e( '[:jp]クーポンコードを入力[:en]Coupon code', 'kona' ); ?>" /> 
+								<button type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( '[:jp]
+クーポンを適用[:en]Apply coupon', 'kona' ); ?>"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 13.2 9">
 									<path d="M13.1,4.4c0-0.2-0.1-0.4-0.2-0.5c0,0,0,0,0,0L9.1,0.2c-0.3-0.3-0.7-0.3-1,0c-0.3,0.3-0.3,0.7,0,1l2.6,2.6H0.7
 										c-0.4,0-0.7,0.3-0.7,0.7c0,0.4,0.3,0.7,0.7,0.7h10L8.2,7.8c-0.3,0.3-0.3,0.7,0,1c0.3,0.3,0.7,0.3,1,0L12.9,5c0,0,0,0,0,0
 										C13,4.9,13,4.8,13.1,4.8c0,0,0,0,0,0C13.1,4.6,13.1,4.5,13.1,4.4z"/>
@@ -163,7 +166,8 @@ wc_print_notices();?>
 						</div>
 					<?php } ?>
 
-					<input type="submit" class="button" name="update_cart" value="<?php esc_attr_e( 'Update cart', 'kona' ); ?>" />
+					<input type="submit" class="button" name="update_cart" value="<?php esc_attr_e( '[:jp]
+カートの更新[:en]Update cart', 'kona' ); ?>" />
 
 					<?php do_action( 'woocommerce_cart_actions' ); ?>
 
@@ -174,7 +178,7 @@ wc_print_notices();?>
 			<?php do_action( 'woocommerce_after_cart_contents' ); ?>
 		</tbody>
 	</table>
-	<?php do_action( 'woocommerce_after_cart_table' ); ?>
+	<?php //do_action( 'woocommerce_after_cart_table' ); ?>
 </form>
 
 <div class="cart-collaterals">

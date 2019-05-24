@@ -133,7 +133,7 @@ wp_enqueue_script( 'tinvwl' );
 								if ( ! array_key_exists( 'class', $availability ) ) {
 									$availability['class'] = '';
 								}
-								$availability_html = empty( $availability['availability'] ) ? '<p class="stock ' . esc_attr( $availability['class'] ) . '"><span><i class="ftinvwl ftinvwl-check"></i></span><span class="tinvwl-txt">' . esc_html__( 'In stock', 'kona' ) . '</span></p>' : '<p class="stock ' . esc_attr( $availability['class'] ) . '"><span><i class="ftinvwl ftinvwl-' . ( ( 'out-of-stock' === esc_attr( $availability['class'] ) ? 'times' : 'check' ) ) . '"></i></span><span>' . esc_html( $availability['availability'] ) . '</span></p>';
+								$availability_html = empty( $availability['availability'] ) ? '<p class="stock ' . esc_attr( $availability['class'] ) . '"><span><i class="ftinvwl ftinvwl-check"></i></span><span class="tinvwl-txt">' . esc_html__( '[:jp]在庫あり[:en]In stock', 'kona' ) . '</span></p>' : '<p class="stock ' . esc_attr( $availability['class'] ) . '"><span><i class="ftinvwl ftinvwl-' . ( ( 'out-of-stock' === esc_attr( $availability['class'] ) ? 'times' : 'check' ) ) . '"></i></span><span>' . esc_html( $availability['availability'] ) . '</span></p>';
 
 								echo apply_filters( 'tinvwl_wishlist_item_status', $availability_html, $availability['availability'], $wl_product, $product ); // WPCS: xss ok.
 								?>
@@ -156,10 +156,10 @@ wp_enqueue_script( 'tinvwl' );
 									
 									<button class="sr-button" name="tinvwl-add-to-cart"
 									        value="<?php echo esc_attr( $wl_product['ID'] ); ?>"
-									        title="<?php echo esc_html( apply_filters( 'tinvwl_wishlist_item_add_to_cart', $wishlist_table_row['text_add_to_cart'], $wl_product, $product ) ); ?>">
+									        title="<?php _e('[:jp]カートに追加する[:en]Add to Cart'); ?>">
 									        <span class="text">
-												<span><?php echo esc_html( apply_filters( 'tinvwl_wishlist_item_add_to_cart', $wishlist_table_row['text_add_to_cart'], $wl_product, $product ) ); ?></span>
-												<span><?php echo esc_html( apply_filters( 'tinvwl_wishlist_item_add_to_cart', $wishlist_table_row['text_add_to_cart'], $wl_product, $product ) ); ?></span>
+												<span><?php _e('[:jp]カートに追加する[:en]Add to Cart'); ?></span>
+												<span><?php _e('[:jp]カートに追加する[:en]Add to Cart'); ?></span>
 											</span>
 									</button>
 								<?php } ?>

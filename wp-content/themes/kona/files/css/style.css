@@ -677,7 +677,7 @@ form {
 	}
 	
 form .form-row {
-	margin-top: 30px;
+	margin-top: 10px;
 	position: relative;
 	}
 	div form:first-child .form-row:first-child,
@@ -2733,7 +2733,7 @@ body.scrolled #header.sticky::after {
 		padding: 30px 0; 
 	}
 	body.scrolled #header.sticky:not(.break-1024) #logo img { 
-		height: 30px; 
+		height: 40px; 
 	}
 	body.scrolled #header.sticky:not(.break-1024) #logo .text-logo { 
 		line-height: 30px; 

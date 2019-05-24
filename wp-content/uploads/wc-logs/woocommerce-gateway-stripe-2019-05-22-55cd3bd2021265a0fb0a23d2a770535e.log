@@ -1,0 +1,1332 @@
+2019-05-22T07:05:54+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T07:05:59+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T07:06:24+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T07:06:32+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T07:06:36+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T07:06:46+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T07:06:50+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T07:06:59+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T07:07:17+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T07:07:20+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T10:31:32+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T10:31:35+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T10:32:25+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T10:38:18+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T10:38:22+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T10:42:22+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T10:48:38+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1EO5B1F71WWm3Cm52UaMy1zz
+====End Log====
+
+
+2019-05-22T10:48:39+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2393 for the amount of 3510.00
+====End Log====
+
+
+2019-05-22T10:48:39+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 351000
+    [description] => CLOSET - Order 2393
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 2393
+        )
+
+    [customer] => cus_ErooBdwhs13qwC
+    [source] => src_1EO5B1F71WWm3Cm52UaMy1zz
+)
+
+====End Log====
+
+
+2019-05-22T10:48:40+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1EcrzwF71WWm3Cm5uuqRHfja
+    [object] => charge
+    [amount] => 351000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1EcrzwF71WWm3Cm5c7fJctLP
+            [object] => balance_transaction
+            [amount] => 351000
+            [available_on] => 1559088000
+            [created] => 1558522120
+            [currency] => sgd
+            [description] => CLOSET - Order 2393
+            [exchange_rate] => 
+            [fee] => 11984
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 11984
+                            [application] => 
+                            [currency] => sgd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 339016
+            [source] => ch_1EcrzwF71WWm3Cm5uuqRHfja
+            [status] => pending
+            [type] => charge
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => masitingss@gmail.com
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1558522120
+    [currency] => sgd
+    [customer] => cus_ErooBdwhs13qwC
+    [description] => CLOSET - Order 2393
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 2393
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 3
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1EO5B1F71WWm3Cm52UaMy1zz
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1ENu5QF71WWm3Cm5/ch_1EcrzwF71WWm3Cm5uuqRHfja/rcpt_F76CjNUtndSfricAhNwSphlCCqGhkfK
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1EcrzwF71WWm3Cm5uuqRHfja/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1EO5B1F71WWm3Cm52UaMy1zz
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [funding] => credit
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [three_d_secure] => optional
+                    [name] => 
+                    [address_line1_check] => 
+                    [address_zip_check] => 
+                    [cvc_check] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_ErooEujZwtJjD0wP9tobveiF
+            [created] => 1558522120
+            [currency] => 
+            [customer] => cus_ErooBdwhs13qwC
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => 
+                    [name] => masitingss@gmail.com
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2019-05-22T10:49:42+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T10:49:45+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_ErooBdwhs13qwC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T10:49:53+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Redirecting to Stripe Checkout page for order 2398
+====End Log====
+
+
+2019-05-22T10:50:18+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Redirecting to Stripe Checkout page for order 2401
+====End Log====
+
+
+2019-05-22T10:51:44+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Redirecting to Stripe Checkout page for order 2401
+====End Log====
+
+
+2019-05-22T11:00:14+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T11:00:17+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T11:00:58+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1ERetFF71WWm3Cm5nGKZUXfY
+====End Log====
+
+
+2019-05-22T11:00:59+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2406 for the amount of 2940.00
+====End Log====
+
+
+2019-05-22T11:00:59+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 294000
+    [description] => CLOSET - Order 2406
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Germaine Test
+            [customer_email] => germaine.ng@fixx.digital
+            [order_id] => 2406
+        )
+
+    [customer] => cus_EvVvvrd1GANKqd
+    [source] => src_1ERetFF71WWm3Cm5nGKZUXfY
+)
+
+====End Log====
+
+
+2019-05-22T11:01:00+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1EcsBrF71WWm3Cm58k4ub2Fa
+    [object] => charge
+    [amount] => 294000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1EcsBsF71WWm3Cm5L3Qfz34p
+            [object] => balance_transaction
+            [amount] => 294000
+            [available_on] => 1559088000
+            [created] => 1558522859
+            [currency] => sgd
+            [description] => CLOSET - Order 2406
+            [exchange_rate] => 
+            [fee] => 10046
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 10046
+                            [application] => 
+                            [currency] => sgd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 283954
+            [source] => ch_1EcsBrF71WWm3Cm58k4ub2Fa
+            [status] => pending
+            [type] => charge
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => germaine.ng@fixx.digital
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1558522859
+    [currency] => sgd
+    [customer] => cus_EvVvvrd1GANKqd
+    [description] => CLOSET - Order 2406
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Germaine Test
+            [customer_email] => germaine.ng@fixx.digital
+            [order_id] => 2406
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 36
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1ERetFF71WWm3Cm5nGKZUXfY
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1ENu5QF71WWm3Cm5/ch_1EcsBrF71WWm3Cm58k4ub2Fa/rcpt_F76OVjzwXKTHYPdnV8GlHzG9MdUy1Ym
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1EcsBrF71WWm3Cm58k4ub2Fa/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1ERetFF71WWm3Cm5nGKZUXfY
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [funding] => credit
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [three_d_secure] => optional
+                    [name] => 
+                    [address_line1_check] => 
+                    [address_zip_check] => 
+                    [cvc_check] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_EvVv9cSeNMB7ca7dnxZPCoah
+            [created] => 1558522859
+            [currency] => 
+            [customer] => cus_EvVvvrd1GANKqd
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => 
+                    [name] => germaine.ng@fixx.digital
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2019-05-22T11:02:51+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Redirecting to Stripe Checkout page for order 2411
+====End Log====
+
+
+2019-05-22T11:03:05+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1EcsDsF71WWm3Cm5FxsABnXo
+====End Log====
+
+
+2019-05-22T11:03:05+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2411 for the amount of 5910.00
+====End Log====
+
+
+2019-05-22T11:03:06+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 591000
+    [description] => CLOSET - Order 2411
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Natasha Sakuma
+            [customer_email] => natashasakuma@gmail.com
+            [order_id] => 2411
+        )
+
+    [source] => src_1EcsDsF71WWm3Cm5FxsABnXo
+)
+
+====End Log====
+
+
+2019-05-22T11:03:07+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1EcsDuF71WWm3Cm5r1AL12Tb
+    [object] => charge
+    [amount] => 591000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1EcsDvF71WWm3Cm5OR32H7a6
+            [object] => balance_transaction
+            [amount] => 591000
+            [available_on] => 1559088000
+            [created] => 1558522986
+            [currency] => sgd
+            [description] => CLOSET - Order 2411
+            [exchange_rate] => 
+            [fee] => 20144
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 20144
+                            [application] => 
+                            [currency] => sgd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 570856
+            [source] => ch_1EcsDuF71WWm3Cm5r1AL12Tb
+            [status] => pending
+            [type] => charge
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => natashasakuma@gmail.com
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1558522986
+    [currency] => sgd
+    [customer] => 
+    [description] => CLOSET - Order 2411
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Natasha Sakuma
+            [customer_email] => natashasakuma@gmail.com
+            [order_id] => 2411
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 61
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1EcsDsF71WWm3Cm5FxsABnXo
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 12
+                    [exp_year] => 2023
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1ENu5QF71WWm3Cm5/ch_1EcsDuF71WWm3Cm5r1AL12Tb/rcpt_F76QHLPS01CPPVMOXosqekfk6RUSuNK
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1EcsDuF71WWm3Cm5r1AL12Tb/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1EcsDsF71WWm3Cm5FxsABnXo
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2023
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [funding] => credit
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [three_d_secure] => optional
+                    [name] => 
+                    [address_line1_check] => 
+                    [address_zip_check] => 
+                    [cvc_check] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_F76QXAuzvznQKjs59O8ojS2g
+            [created] => 1558522986
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => 
+                    [name] => natashasakuma@gmail.com
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2019-05-22T11:33:10+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T11:33:13+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T14:05:24+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T14:05:29+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T14:37:39+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T14:37:43+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T14:40:21+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Redirecting to Stripe Checkout page for order 2428
+====End Log====
+
+
+2019-05-22T14:41:47+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Redirecting to Stripe Checkout page for order 2428
+====End Log====
+
+
+2019-05-22T14:43:19+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T14:43:22+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+customers/cus_EvVvvrd1GANKqd/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2019-05-22T14:44:14+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Redirecting to Stripe Checkout page for order 2428
+====End Log====
+
+
+2019-05-22T14:45:30+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Redirecting to Stripe Checkout page for order 2428
+====End Log====
+
+
+2019-05-22T15:06:38+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1Ecw1YF71WWm3Cm5fUK5lqXu
+====End Log====
+
+
+2019-05-22T15:06:40+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2438 for the amount of 5100.00
+====End Log====
+
+
+2019-05-22T15:06:40+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 510000
+    [description] => CLOSET - Order 2438
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Darren Lee
+            [customer_email] => dl@fixxdigital.com
+            [order_id] => 2438
+        )
+
+    [source] => src_1Ecw1YF71WWm3Cm5fUK5lqXu
+)
+
+====End Log====
+
+
+2019-05-22T15:06:41+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1Ecw1cF71WWm3Cm5u6mBaCwF
+    [object] => charge
+    [amount] => 510000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1Ecw1dF71WWm3Cm5QuqeEE1d
+            [object] => balance_transaction
+            [amount] => 510000
+            [available_on] => 1559088000
+            [created] => 1558537600
+            [currency] => sgd
+            [description] => CLOSET - Order 2438
+            [exchange_rate] => 
+            [fee] => 17390
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 17390
+                            [application] => 
+                            [currency] => sgd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 492610
+            [source] => ch_1Ecw1cF71WWm3Cm5u6mBaCwF
+            [status] => pending
+            [type] => charge
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => SG
+                    [line1] => 625 Toa Payoh Lorong 4
+                    [line2] => #05-01
+                    [postal_code] => 319519
+                    [state] => 
+                )
+
+            [email] => dl@fixxdigital.com
+            [name] => Darren Lee
+            [phone] => 96969618
+        )
+
+    [captured] => 1
+    [created] => 1558537600
+    [currency] => sgd
+    [customer] => 
+    [description] => CLOSET - Order 2438
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Darren Lee
+            [customer_email] => dl@fixxdigital.com
+            [order_id] => 2438
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 61
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1Ecw1YF71WWm3Cm5fUK5lqXu
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 1
+                    [exp_year] => 2023
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1ENu5QF71WWm3Cm5/ch_1Ecw1cF71WWm3Cm5u6mBaCwF/rcpt_F7AMyc3CFEe83MfUUxbOfTnFhXcg22h
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1Ecw1cF71WWm3Cm5u6mBaCwF/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1Ecw1YF71WWm3Cm5fUK5lqXu
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 1
+                    [exp_year] => 2023
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_F7AML838G40ahGwb2m6jdFN8
+            [created] => 1558537601
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => 
+                            [country] => SG
+                            [line1] => 625 Toa Payoh Lorong 4
+                            [line2] => #05-01
+                            [postal_code] => 319519
+                            [state] => 
+                        )
+
+                    [email] => dl@fixxdigital.com
+                    [name] => Darren Lee
+                    [phone] => 96969618
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2019-05-22T17:19:53+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Redirecting to Stripe Checkout page for order 2458
+====End Log====
+
+

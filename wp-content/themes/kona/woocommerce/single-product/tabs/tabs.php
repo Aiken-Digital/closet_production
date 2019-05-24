@@ -36,19 +36,45 @@ if ( ! empty( $tabs ) ) : ?>
 
 	<div class="woocommerce-tabs wc-tabs-wrapper sr-tabs">
 		<ul class="tab-nav clearfix wc-tabs">
-				<li class="brand_tab">
-                	<h5 class="tab-name">
-					<a href="#tab-brand"><?php _e('[:jp]デザイナー[:en]Designer');?></a>
-                    </h5>
-				</li>
-			<?php foreach ( $tabs as $key => $tab ) : ?>
+			<li class="brand_tab">
+            	<h5 class="tab-name">
+				<a href="#tab-brand"><?php _e('[:jp]デザイナー[:en]Designer');?></a>
+                </h5>
+			</li>
+			<?php $tabses = ['additional_information' , 'description'];?>
+			<?php foreach ($tabses as $key): ?>
 				<li class="<?php echo esc_attr( $key ); ?>_tab">
-                	<h5 class="tab-name">
+					<h5 class="tab-name">
 					<a href="#tab-<?php echo esc_attr( $key ); ?>">
-					<?php echo apply_filters( 'woocommerce_product_' . $key . '_tab_title', esc_html( $tab['title'] ), $key ); ?></a>
+						<?php if ($key === 'additional_information'): ?>
+							Product Care & Description
+						<?php elseif($key === 'description') : ?>
+							Shipping and Returns
+						<?php endif ?>
                     </h5>
 				</li>
-			<?php endforeach; ?>
+			<?php endforeach ?>
+			<li class="size_fit_tab">
+            	<h5 class="tab-name">
+				<a href="#tab-size_fit">Size & Fit</a>
+                </h5>
+			</li>
+			<!-- <?php //foreach ( $tabs as $key => $tab ) : ?>
+				<?php //if ($key !== 'reviews'): ?>
+					<li class="<?php //echo esc_attr( $key ); ?>_tab">
+	                	<h5 class="tab-name">
+						<a href="#tab-<?php //echo esc_attr( $key ); ?>">
+							<?php //if ($key === 'additional_information'): ?>
+								Product Description
+							<?php //elseif($key === 'description') : ?>
+								Additional Information
+							<?php //else : ?>
+								<?php //echo apply_filters( 'woocommerce_product_' . $key . '_tab_title', esc_html( $tab['title'] ), $key ); ?></a>
+							<?php //endif ?>
+	                    </h5>
+					</li>
+				<?php //endif ?>
+			<?php //endforeach; ?> -->
 		</ul>
 		<div class="tab-container clearfix">
 			<div class="tab-content woocommerce-Tabs-panel woocommerce-Tabs-panel--brand panel entry-content wc-tab" id="tab-brand" style="display: block;">
@@ -57,16 +83,43 @@ if ( ! empty( $tabs ) ) : ?>
 				</div> <!-- END .tab-wrapper -->
 			</div>
 		<?php foreach ( $tabs as $key => $tab ) : ?>
-			<div class="tab-content woocommerce-Tabs-panel woocommerce-Tabs-panel--<?php echo esc_attr( $key ); ?> panel entry-content wc-tab" id="tab-<?php echo esc_attr( $key ); ?>">
-				<?php 
-				$wrapper = '';
-				if ($key == 'reviews') { $wrapper = 'wrapper-medium'; } else 
-				if ($key == 'additional_information' || ($key == 'description' && !$pb_enabled && ($vc_enabled == "false" || !$vc_enabled))) { $wrapper = 'wrapper-small'; } ?>
-				<div class="tab-wrapper <?php echo esc_attr($wrapper); ?> ">
-				<?php if ( isset( $tab['callback'] ) ) { call_user_func( $tab['callback'], $key, $tab ); } ?>
+			<?php if ($key !== 'reviews'): ?>
+				<div class="tab-content woocommerce-Tabs-panel woocommerce-Tabs-panel--<?php echo esc_attr( $key ); ?> panel entry-content wc-tab" id="tab-<?php echo esc_attr( $key ); ?>">
+					<?php 
+					$wrapper = '';
+					if ($key == 'reviews') { $wrapper = 'wrapper-medium'; } else 
+					if ($key == 'additional_information' || ($key == 'description' && !$pb_enabled && ($vc_enabled == "false" || !$vc_enabled))) { $wrapper = 'wrapper-small'; } ?>
+
+					<div class="tab-wrapper <?php echo esc_attr($wrapper); ?> ">
+						<?php if ($key === 'additional_information'): ?>
+							<?php 
+								$data = get_field('product_description');
+								_e($data);
+							?>
+						<?php else : ?>
+							<?php if ( isset( $tab['callback'] ) ) { call_user_func( $tab['callback'], $key, $tab ); } ?>
+						<?php endif ?>
+					</div> <!-- END .tab-wrapper -->
+
+				</div>
+			<?php endif ?>
+		<?php endforeach; ?>
+			<div class="tab-content woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab" id="tab-description" style="display: block;">
+				<div class="tab-wrapper wrapper-small ">
+					<?php 
+						$datas = get_field('shipping_and_returns');
+						_e($datas);
+					?>
 				</div> <!-- END .tab-wrapper -->
 			</div>
-		<?php endforeach; ?>
+			<div class="tab-content woocommerce-Tabs-panel woocommerce-Tabs-panel--size_fit panel entry-content wc-tab" id="tab-size_fit" style="display: block;">
+				<div class="tab-wrapper wrapper-small ">
+					<?php 
+						$datas = get_field('size_fit');
+						_e($datas);
+					?>
+				</div> <!-- END .tab-wrapper -->
+			</div>
 		</div>
 	</div>
 

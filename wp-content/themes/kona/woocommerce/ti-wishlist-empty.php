@@ -16,12 +16,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php if ( function_exists( 'wc_print_notices' ) ) { wc_print_notices(); } ?>
 	<div class="notfound-icon"></div>
 	<div class="spacer-small"></div>
-	<p class="h3 ooops"><strong><?php esc_html_e("[:jp]ほしい物リストに商品が入っていません。[:en]Ooops","kona"); ?>.</strong></p>
+	<p class="h3 ooops"><strong><?php esc_html_e("[:jp]ほしい物リストに商品が入っていません。[:en]Ooops","kona"); ?></strong></p>
 	<p class="cart-empty h5 title-alt">
 		<?php if ( get_current_user_id() === $wishlist['author'] ) { ?>
-			<?php esc_html_e( '[:jp]ハートアイコン（♡）をクリックし、ほしい物リストにお気に入りの商品を保存しましょう。[:en]Your Wishlist is currently empty.', 'kona' ); ?>
+			<?php esc_html_e( '[:jp]ハートアイコンをクリックし、ほしい物リストにお気に入りの商品を保存しましょう。[:en]Your Wishlist is currently empty.', 'kona' ); ?>
 		<?php } else { ?>
-			<?php esc_html_e( '[:jp]ハートアイコン（♡）をクリックし、ほしい物リストにお気に入りの商品を保存しましょう。[:en]Wishlist is currently empty.', 'kona' ); ?>
+			<?php esc_html_e( '[:jp]ハートアイコンをクリックし、ほしい物リストにお気に入りの商品を保存しましょう。[:en]Wishlist is currently empty.', 'kona' ); ?>
 		<?php } ?>
 	</p>
 

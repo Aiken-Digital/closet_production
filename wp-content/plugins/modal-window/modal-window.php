@@ -3,7 +3,7 @@
  * Plugin Name:       Modal Window
  * Plugin URI:        https://wordpress.org/plugins/modal-window/
  * Description:       Create popups. Insert any content. Trigger on anything.
- * Version:           4.0
+ * Version:           4.0.3
  * Author:            Wow-Company
  * Author URI:        https://wow-estore.com/author/admin/?author_downloads=true
  * License:           GPL-2.0+
@@ -35,7 +35,7 @@ if ( !class_exists( 'Wow_Plugin_Class' ) ) {
           'plugin_name'     => 'Modal Window',
           'plugin_menu'     => 'Modal Window',
           'plugin_home_url' => 'https://wordpress.org/plugins/modal-window/',
-          'plugin_version'  => '4.0',
+          'plugin_version'  => '4.0.3',
           'plugin_file'     => __FILE__,
           'plugin_slug'     => dirname( plugin_basename( __FILE__ ) ),
           'plugin_dir'      => plugin_dir_path( __FILE__ ),
@@ -67,12 +67,12 @@ if ( !class_exists( 'Wow_Plugin_Class' ) ) {
 
     public function __clone() {
       // Cloning instances of the class is forbidden.
-      _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'modal-window' ), '4.0' );
+      _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'modal-window' ), '4.0.2' );
     }
 
     public function __wakeup() {
       // Unserializing instances of the class is forbidden.
-      _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'modal-window' ), '4.0' );
+      _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'modal-window' ), '4.0.2' );
     }
 
 

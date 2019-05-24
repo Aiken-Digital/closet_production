@@ -24,11 +24,11 @@ if ( wc_get_page_id( 'shop' ) > 0 ) : ?>
 	
 	<div class="empty-cart">
 		<div class="empty-icon">0</div>
-		<div class="empty-main-text h3"><strong><?php _e( 'Your cart is empty', 'kona' ); ?></strong></div>
-		<div class="empty-sub-text title-alt"><?php _e( "Looks like you haven't made your choice yet", 'kona' ); ?></div>
+		<div class="empty-main-text h3"><strong><?php _e( '[:jp]買い物かごには商品が入っていません[:en]Your cart is empty', 'kona' ); ?></strong></div>
+		<div class="empty-sub-text title-alt"><?php _e( "[:jp]ショップへ戻り、商品をお選びください。[:en]Looks like you haven't made your choice yet", 'kona' ); ?></div>
 		<p class="return-to-shop">
 			<a class="button wc-backward" href="<?php echo esc_url( apply_filters( 'woocommerce_return_to_shop_redirect', wc_get_page_permalink( 'shop' ) ) ); ?>">
-				<?php _e( 'Return to shop', 'kona' ) ?>
+				<?php _e( '[:jp]ショップに戻る[:en]Return to shop', 'kona' ) ?>
 			</a>
 		</p>
 	</div>

@@ -1,8 +1,0 @@
-2019-04-12T04:58:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_all_brand() in /home/fixxstaging/public_html/closet/wp-content/themes/kona-child/page-designers.php:47
-Stack trace:
-#0 /home/fixxstaging/public_html/closet/wp-includes/template-loader.php(77): include()
-#1 /home/fixxstaging/public_html/closet/wp-blog-header.php(19): require_once('/home/fixxstagi...')
-#2 /home/fixxstaging/public_html/closet/index.php(17): require('/home/fixxstagi...')
-#3 {main}
-  thrown in /home/fixxstaging/public_html/closet/wp-content/themes/kona-child/page-designers.php on line 47
-

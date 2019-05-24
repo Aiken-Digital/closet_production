@@ -31,7 +31,7 @@ jQuery(document).ready(function(){
 	  infinite: true,
 	  slidesToShow: 1,
 	  slidesToScroll: 1,
-	  dots: true,
+	  dots: false,
 	  prevArrow:"<div class='carousel-prev v-half'></div>",
 	  nextArrow:"<div class='carousel-next v-half'></div>",
 	});
@@ -73,3 +73,33 @@ jQuery(document).ready(function(){
 });
 
 
+// login page overlapping 
+
+jQuery(document).ready(function(){
+
+	if(jQuery('#username').length > 0 ){
+		jQuery('.woocommerce-form-row').addClass('has-val');
+		console.log('has-val');
+	}
+
+	if(jQuery('#password').length > 0 ){
+		jQuery('.woocommerce-form-row').addClass('has-val');
+		console.log('has-val');
+	}
+
+});
+
+// END login page overlapping
+
+jQuery(document).ready(function(){
+
+//designer page :: added active 
+jQuery('.designers-index a').on('click', function(){
+	jQuery('.designers-index a').removeClass('active');
+	jQuery(this).toggleClass('active');
+
+})
+
+// END designer page :: added active
+
+});

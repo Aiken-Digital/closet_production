@@ -62,7 +62,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 	
 	<div class="sr-checkout-order">
 		<div id="order_review" class="woocommerce-checkout-review-order">
-			<h3 id="order_review_heading"><strong><?php _e( 'Your order', 'kona' ); ?></strong></h3>
+			<h3 id="order_review_heading"><strong><?php _e( '[:jp]注文内容[:en]Your order', 'kona' ); ?></strong></h3>
 			<?php do_action( 'woocommerce_checkout_order_review' ); ?>
 		</div>
 	</div>

@@ -292,7 +292,7 @@ class ctSizeGuideDisplay {
 			echo '<div id="ct_size_guide-'. $this->sg_id .'" style="' . $paddings . '" class="ct-size-guide sg mfp-hide">';
 		}
 
-		echo '<h2 class="sg_title">' . $sg_title . '</h2><hr>';
+		_e('<h2 class="sg_title">'.$sg_title.'</h2><hr>');
 		echo '<div class="sg_content"> ' . do_shortcode( $sg_content ) . '</div>';
 		/*echo '<div class="sg_content">';
 		print_r($sg_content);

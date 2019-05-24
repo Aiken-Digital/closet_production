@@ -23,7 +23,7 @@ if ( ! is_ajax() ) {
 ?>
 <div id="payment" class="woocommerce-checkout-payment">
 	<?php if ( WC()->cart->needs_payment() ) : ?>
-		<h3><strong><?php _e( 'Payment', 'kona' ); ?></strong></h3>
+		<h3><strong><?php _e( '[:jp]支払い方法[:en]Payment', 'kona' ); ?></strong></h3>
 		<ul class="wc_payment_methods payment_methods methods">
 			<?php
 			if ( ! empty( $available_gateways ) ) {
@@ -36,7 +36,6 @@ if ( ! is_ajax() ) {
 			?>
 		</ul>
 	<?php endif; ?>
-	<div class="spacer-small"></div>
 	<div class="place-order">
 		<noscript>
 			<?php
@@ -46,7 +45,31 @@ if ( ! is_ajax() ) {
 			<br/><button type="submit" class="button alt" name="woocommerce_checkout_update_totals" value="<?php esc_attr_e( 'Update totals', 'kona' ); ?>"><?php esc_html_e( 'Update totals', 'kona' ); ?></button>
 		</noscript>
 
-		<?php wc_get_template( 'checkout/terms.php' ); ?>
+		<?php 
+		    if ( apply_filters( 'woocommerce_checkout_show_terms', true ) && function_exists( 'wc_terms_and_conditions_checkbox_enabled' ) ) {
+	do_action( 'woocommerce_checkout_before_terms_and_conditions' );
+
+	?>
+	<div class="woocommerce-terms-and-conditions-wrapper">
+		<div class="woocommerce-privacy-policy-text"><p><?php _e('[:jp]ご注文を確定することにより、 利用規約およびプライバシーポリシーに同意したものとみなされます。[:en]Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy');?></p>
+        </div>
+
+		<?php if ( wc_terms_and_conditions_checkbox_enabled() ) : ?>
+			<p class="form-row validate-required">
+				<label class="woocommerce-form__label woocommerce-form__label-for-checkbox checkbox">
+				<input type="checkbox" class="woocommerce-form__input woocommerce-form__input-checkbox input-checkbox" name="terms" <?php checked( apply_filters( 'woocommerce_terms_is_checked_default', isset( $_POST['terms'] ) ), true ); // WPCS: input var ok, csrf ok. ?> id="terms" />
+					<span class="woocommerce-terms-and-conditions-checkbox-text">
+					    <?php _e('[:jp]サイトの利用規約を読んで同意しました * :  Closetの利用規約を読み、同意します。[:en]I have read and agree to the website terms and conditions'); ?></span>&nbsp;<span class="required">*</span>
+				</label>
+				<input type="hidden" name="terms-field" value="1" />
+			</p>
+		<?php endif; ?>
+	</div>
+	<?php
+
+	do_action( 'woocommerce_checkout_after_terms_and_conditions' );
+}
+		?>
 
 		<?php do_action( 'woocommerce_review_order_before_submit' ); ?>
 

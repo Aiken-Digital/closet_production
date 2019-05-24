@@ -1,0 +1,251 @@
+2019-05-17T16:28:03+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Redirecting to Stripe Checkout page for order 2292
+====End Log====
+
+
+2019-05-17T16:33:36+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Redirecting to Stripe Checkout page for order 2292
+====End Log====
+
+
+2019-05-17T16:35:15+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1Eb91aF71WWm3Cm5KZasS2jS
+====End Log====
+
+
+2019-05-17T16:35:16+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2292 for the amount of 460.00
+====End Log====
+
+
+2019-05-17T16:35:16+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 46000
+    [description] => Closet - 注文 2292
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Natasha Sakuma
+            [customer_email] => natashasakuma@gmail.com
+            [order_id] => 2292
+        )
+
+    [source] => src_1Eb91aF71WWm3Cm5KZasS2jS
+)
+
+====End Log====
+
+
+2019-05-17T16:35:17+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1Eb91cF71WWm3Cm5JWBC5wiE
+    [object] => charge
+    [amount] => 46000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1Eb91dF71WWm3Cm5Leurd9hu
+            [object] => balance_transaction
+            [amount] => 46000
+            [available_on] => 1558656000
+            [created] => 1558110916
+            [currency] => sgd
+            [description] => Closet - 注文 2292
+            [exchange_rate] => 
+            [fee] => 1614
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 1614
+                            [application] => 
+                            [currency] => sgd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 44386
+            [source] => ch_1Eb91cF71WWm3Cm5JWBC5wiE
+            [status] => pending
+            [type] => charge
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => natashasakuma@gmail.com
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1558110916
+    [currency] => sgd
+    [customer] => 
+    [description] => Closet - 注文 2292
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Natasha Sakuma
+            [customer_email] => natashasakuma@gmail.com
+            [order_id] => 2292
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 63
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1Eb91aF71WWm3Cm5KZasS2jS
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 12
+                    [exp_year] => 2023
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1ENu5QF71WWm3Cm5/ch_1Eb91cF71WWm3Cm5JWBC5wiE/rcpt_F5JeXeygcABXLTD3bbTouBGhgYJoaGT
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1Eb91cF71WWm3Cm5JWBC5wiE/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1Eb91aF71WWm3Cm5KZasS2jS
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2023
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [three_d_secure] => optional
+                    [name] => 
+                    [address_line1_check] => 
+                    [address_zip_check] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_F5Je9Q0EHjhC2DHqCMPIRhW6
+            [created] => 1558110917
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => 
+                    [name] => natashasakuma@gmail.com
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+

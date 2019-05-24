@@ -1,0 +1,987 @@
+2019-05-23T10:02:47+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1EdDl4F71WWm3Cm5ydwqYrfq
+====End Log====
+
+
+2019-05-23T10:02:48+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2485 for the amount of 370.00
+====End Log====
+
+
+2019-05-23T10:02:48+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 37000
+    [description] => Closet - 注文 2485
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Natasha S
+            [customer_email] => natashasakuma@gmail.com
+            [order_id] => 2485
+        )
+
+    [source] => src_1EdDl4F71WWm3Cm5ydwqYrfq
+)
+
+====End Log====
+
+
+2019-05-23T10:02:50+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1EdDl7F71WWm3Cm5gTDdpC6K
+    [object] => charge
+    [amount] => 37000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1EdDl8F71WWm3Cm54uBh8N9W
+            [object] => balance_transaction
+            [amount] => 37000
+            [available_on] => 1559174400
+            [created] => 1558605769
+            [currency] => sgd
+            [description] => Closet - 注文 2485
+            [exchange_rate] => 
+            [fee] => 1308
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 1308
+                            [application] => 
+                            [currency] => sgd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 35692
+            [source] => ch_1EdDl7F71WWm3Cm5gTDdpC6K
+            [status] => pending
+            [type] => charge
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => SG
+                    [line1] => 121 McNair Road
+                    [line2] => #02-69
+                    [postal_code] => 320121
+                    [state] => 
+                )
+
+            [email] => natashasakuma@gmail.com
+            [name] => Natasha S
+            [phone] => 91687936
+        )
+
+    [captured] => 1
+    [created] => 1558605769
+    [currency] => sgd
+    [customer] => 
+    [description] => Closet - 注文 2485
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Natasha S
+            [customer_email] => natashasakuma@gmail.com
+            [order_id] => 2485
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 36
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1EdDl4F71WWm3Cm5ydwqYrfq
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 12
+                    [exp_year] => 2023
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1ENu5QF71WWm3Cm5/ch_1EdDl7F71WWm3Cm5gTDdpC6K/rcpt_F7SgnamW6g9SiEonhBeRYMTruaso9VA
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1EdDl7F71WWm3Cm5gTDdpC6K/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1EdDl4F71WWm3Cm5ydwqYrfq
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2023
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_F7SgBM7sQIXqfk6oLeLFTzhe
+            [created] => 1558605769
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => 
+                            [country] => SG
+                            [line1] => 121 McNair Road
+                            [line2] => #02-69
+                            [postal_code] => 320121
+                            [state] => 
+                        )
+
+                    [email] => natashasakuma@gmail.com
+                    [name] => Natasha S
+                    [phone] => 91687936
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2019-05-23T14:10:08+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1EdHcQF71WWm3Cm5erFEVFnU
+====End Log====
+
+
+2019-05-23T14:10:09+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2493 for the amount of 17786850.00
+====End Log====
+
+
+2019-05-23T14:10:09+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 1778685000
+    [description] => Closet - 注文 2493
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 2493
+        )
+
+    [customer] => cus_ErooBdwhs13qwC
+    [source] => src_1EdHcQF71WWm3Cm5erFEVFnU
+)
+
+====End Log====
+
+
+2019-05-23T14:10:11+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1EdHcQF71WWm3Cm5erFEVFnU
+====End Log====
+
+
+2019-05-23T14:10:12+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2493 for the amount of 17786850.00
+====End Log====
+
+
+2019-05-23T14:10:12+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 1778685000
+    [description] => Closet - 注文 2493
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 2493
+        )
+
+    [customer] => cus_ErooBdwhs13qwC
+    [source] => src_1EdHcQF71WWm3Cm5erFEVFnU
+)
+
+====End Log====
+
+
+2019-05-23T14:10:15+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1EdHcQF71WWm3Cm5erFEVFnU
+====End Log====
+
+
+2019-05-23T14:10:16+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2493 for the amount of 17786850.00
+====End Log====
+
+
+2019-05-23T14:10:16+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 1778685000
+    [description] => Closet - 注文 2493
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 2493
+        )
+
+    [customer] => cus_ErooBdwhs13qwC
+    [source] => src_1EdHcQF71WWm3Cm5erFEVFnU
+)
+
+====End Log====
+
+
+2019-05-23T14:10:20+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1EdHcQF71WWm3Cm5erFEVFnU
+====End Log====
+
+
+2019-05-23T14:10:21+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2493 for the amount of 17786850.00
+====End Log====
+
+
+2019-05-23T14:10:21+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 1778685000
+    [description] => Closet - 注文 2493
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 2493
+        )
+
+    [customer] => cus_ErooBdwhs13qwC
+    [source] => src_1EdHcQF71WWm3Cm5erFEVFnU
+)
+
+====End Log====
+
+
+2019-05-23T14:10:25+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1EdHcQF71WWm3Cm5erFEVFnU
+====End Log====
+
+
+2019-05-23T14:10:26+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2493 for the amount of 17786850.00
+====End Log====
+
+
+2019-05-23T14:10:26+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 1778685000
+    [description] => Closet - 注文 2493
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 2493
+        )
+
+    [customer] => cus_ErooBdwhs13qwC
+    [source] => src_1EdHcQF71WWm3Cm5erFEVFnU
+)
+
+====End Log====
+
+
+2019-05-23T14:10:27+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1EdHcQF71WWm3Cm5erFEVFnU
+====End Log====
+
+
+2019-05-23T14:10:28+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2493 for the amount of 17786850.00
+====End Log====
+
+
+2019-05-23T14:10:28+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 1778685000
+    [description] => Closet - 注文 2493
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 2493
+        )
+
+    [customer] => cus_ErooBdwhs13qwC
+    [source] => src_1EdHcQF71WWm3Cm5erFEVFnU
+)
+
+====End Log====
+
+
+2019-05-23T14:10:29+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_large
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-large
+            [message] => Amount must be no more than $999,999.99
+            [param] => amount
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2019-05-23T14:10:42+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1EdHcvF71WWm3Cm5kBMJ9cRS
+====End Log====
+
+
+2019-05-23T14:10:43+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2498 for the amount of 2850.00
+====End Log====
+
+
+2019-05-23T14:10:43+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 285000
+    [description] => Closet - 注文 2498
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 2498
+        )
+
+    [customer] => cus_ErooBdwhs13qwC
+    [source] => src_1EdHcvF71WWm3Cm5kBMJ9cRS
+)
+
+====End Log====
+
+
+2019-05-23T14:10:44+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1EdHd1F71WWm3Cm52F2XKRjz
+    [object] => charge
+    [amount] => 285000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1EdHd2F71WWm3Cm56vPOked8
+            [object] => balance_transaction
+            [amount] => 285000
+            [available_on] => 1559174400
+            [created] => 1558620643
+            [currency] => sgd
+            [description] => Closet - 注文 2498
+            [exchange_rate] => 
+            [fee] => 9740
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 9740
+                            [application] => 
+                            [currency] => sgd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 275260
+            [source] => ch_1EdHd1F71WWm3Cm52F2XKRjz
+            [status] => pending
+            [type] => charge
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => SG
+                    [line1] => Perumnas nikan
+                    [line2] => Blok A5
+                    [postal_code] => 31626
+                    [state] => 
+                )
+
+            [email] => masitingss@gmail.com
+            [name] => Rafi Halilintar
+            [phone] => 081357541790
+        )
+
+    [captured] => 1
+    [created] => 1558620643
+    [currency] => sgd
+    [customer] => cus_ErooBdwhs13qwC
+    [description] => Closet - 注文 2498
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 2498
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 17
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1EdHcvF71WWm3Cm5kBMJ9cRS
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 4
+                    [exp_year] => 2024
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1ENu5QF71WWm3Cm5/ch_1EdHd1F71WWm3Cm52F2XKRjz/rcpt_F7WgfywiAhqQngwOcd8l513HVh6f6I9
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1EdHd1F71WWm3Cm52F2XKRjz/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1EdHcvF71WWm3Cm5kBMJ9cRS
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 4
+                    [exp_year] => 2024
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_F7Wg4rj5Ow0YU08aXh8Jx1IC
+            [created] => 1558620644
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => 
+                            [country] => SG
+                            [line1] => Perumnas nikan
+                            [line2] => Blok A5
+                            [postal_code] => 31626
+                            [state] => 
+                        )
+
+                    [email] => masitingss@gmail.com
+                    [name] => Rafi Halilintar
+                    [phone] => 081357541790
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2019-05-23T17:50:44+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1EdL3tF71WWm3Cm59RKLSvqY
+====End Log====
+
+
+2019-05-23T17:50:45+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 2545 for the amount of 3100.00
+====End Log====
+
+
+2019-05-23T17:50:45+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => sgd
+    [amount] => 310000
+    [description] => CLOSET - Order 2545
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 2545
+        )
+
+    [customer] => cus_ErooBdwhs13qwC
+    [source] => src_1EdL3tF71WWm3Cm59RKLSvqY
+)
+
+====End Log====
+
+
+2019-05-23T17:50:46+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1EdL3yF71WWm3Cm5676yAoju
+    [object] => charge
+    [amount] => 310000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1EdL3yF71WWm3Cm503KWTyFF
+            [object] => balance_transaction
+            [amount] => 310000
+            [available_on] => 1559174400
+            [created] => 1558633846
+            [currency] => sgd
+            [description] => CLOSET - Order 2545
+            [exchange_rate] => 
+            [fee] => 10590
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 10590
+                            [application] => 
+                            [currency] => sgd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 299410
+            [source] => ch_1EdL3yF71WWm3Cm5676yAoju
+            [status] => pending
+            [type] => charge
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => SG
+                    [line1] => Perumnas nikan
+                    [line2] => Blok A5
+                    [postal_code] => 31626
+                    [state] => 
+                )
+
+            [email] => masitingss@gmail.com
+            [name] => Rafi Halilintar
+            [phone] => 081357541790
+        )
+
+    [captured] => 1
+    [created] => 1558633846
+    [currency] => sgd
+    [customer] => cus_ErooBdwhs13qwC
+    [description] => CLOSET - Order 2545
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Rafi Halilintar
+            [customer_email] => masitingss@gmail.com
+            [order_id] => 2545
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 42
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1EdL3tF71WWm3Cm59RKLSvqY
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 4
+                    [exp_year] => 2024
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1ENu5QF71WWm3Cm5/ch_1EdL3yF71WWm3Cm5676yAoju/rcpt_F7aElz9hMX7WtopuFYLy6cYGBke8lfz
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1EdL3yF71WWm3Cm5676yAoju/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1EdL3tF71WWm3Cm59RKLSvqY
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 4
+                    [exp_year] => 2024
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => MEf9iCAHQxGCOPWT
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_F7aE2XxCjfmWJ8NFuhNowCK1
+            [created] => 1558633846
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => 
+                            [country] => SG
+                            [line1] => Perumnas nikan
+                            [line2] => Blok A5
+                            [postal_code] => 31626
+                            [state] => 
+                        )
+
+                    [email] => masitingss@gmail.com
+                    [name] => Rafi Halilintar
+                    [phone] => 081357541790
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+

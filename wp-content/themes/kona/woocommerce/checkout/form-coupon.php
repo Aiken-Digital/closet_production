@@ -30,16 +30,16 @@ if ( ! wc_coupons_enabled() ) {
 
 	<?php
 	if ( empty( WC()->cart->applied_coupons ) ) {
-		echo '<a href="#" class="showcoupon sr-button-text">'.esc_html__( 'Have a coupon?', 'kona' ).'</a>';
+		echo '<a href="#" class="showcoupon sr-button-text">'.esc_html__( '[:jp]クーポンコードをお持ちの方[:en]Have a coupon?', 'kona' ).'</a>';
 	}
 	?>
 
 	<form class="checkout_coupon" method="post">
 
 		<p class="form-row form-row-first">
-			<label><?php esc_html_e( 'Coupon code', 'kona' ); ?></label>
-			<input type="text" name="coupon_code" class="input-text" placeholder="<?php esc_attr_e( 'Coupon code', 'kona' ); ?>" id="coupon_code" value="" />
-			<button type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'kona' ); ?>"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 13.2 9">
+			<label><?php esc_html_e( '[:jp]クーポンコードを入力[:en]Coupon code', 'kona' ); ?></label>
+			<input type="text" name="coupon_code" class="input-text" placeholder="<?php esc_attr_e( '[:jp]クーポンコードを入力[:en]Coupon code', 'kona' ); ?>" id="coupon_code" value="" />
+			<button type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( '[:jp]クーポンを適用[:en]Apply coupon', 'kona' ); ?>"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 13.2 9">
 				<path d="M13.1,4.4c0-0.2-0.1-0.4-0.2-0.5c0,0,0,0,0,0L9.1,0.2c-0.3-0.3-0.7-0.3-1,0c-0.3,0.3-0.3,0.7,0,1l2.6,2.6H0.7
 					c-0.4,0-0.7,0.3-0.7,0.7c0,0.4,0.3,0.7,0.7,0.7h10L8.2,7.8c-0.3,0.3-0.3,0.7,0,1c0.3,0.3,0.7,0.3,1,0L12.9,5c0,0,0,0,0,0
 					C13,4.9,13,4.8,13.1,4.8c0,0,0,0,0,0C13.1,4.6,13.1,4.5,13.1,4.4z"/>

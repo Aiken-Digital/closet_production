@@ -41,7 +41,7 @@ $menu_items = apply_filters('woo_wallet_nav_menu_items', array(
 
 <div class="woo-wallet-my-wallet-container">
     <div class="woo-wallet-sidebar">
-        <h3 class="woo-wallet-sidebar-heading" style="width: 100%;"><a href="<?php echo $is_rendred_from_myaccount ? esc_url( wc_get_account_endpoint_url( get_option( 'woocommerce_woo_wallet_endpoint', 'woo-wallet' ) ) ) : get_permalink(); ?>"><?php echo apply_filters( 'woo_wallet_account_menu_title', __( 'My Wallet', 'woo-wallet' ) ); ?></a></h3>
+        <h3 class="woo-wallet-sidebar-heading"><a href="<?php echo $is_rendred_from_myaccount ? esc_url( wc_get_account_endpoint_url( get_option( 'woocommerce_woo_wallet_endpoint', 'woo-wallet' ) ) ) : get_permalink(); ?>"><?php echo apply_filters( 'woo_wallet_account_menu_title', __( 'My Wallet', 'woo-wallet' ) ); ?></a></h3>
         <ul>
             <?php foreach ($menu_items as $item => $menu_item) : ?>
                 <?php if (apply_filters('woo_wallet_is_enable_' . $item, true)) : ?>
@@ -84,7 +84,7 @@ $menu_items = apply_filters('woo_wallet_nav_menu_items', array(
                     </p>
                     <p class="woo-wallet-field-container form-row form-row-wide">
                         <label for="woo_wallet_transfer_amount"><?php _e( 'Amount', 'woo-wallet' ); ?></label>
-                        <input type="number" step="0.01" name="woo_wallet_transfer_amount" required=""/>
+                        <input type="number" step="0.01" min="<?php echo woo_wallet()->settings_api->get_option('min_transfer_amount', '_wallet_settings_general', 0); ?>" name="woo_wallet_transfer_amount" required=""/>
                     </p>
                     <p class="woo-wallet-field-container form-row form-row-wide">
                         <label for="woo_wallet_transfer_note"><?php _e( 'What\'s this for', 'woo-wallet' ); ?></label>

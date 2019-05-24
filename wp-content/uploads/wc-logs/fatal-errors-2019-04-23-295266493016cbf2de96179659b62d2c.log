@@ -1,2 +1,0 @@
-2019-04-23T10:05:45+00:00 CRITICAL Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/fixxdigital/closet/wp-content/themes/kona-child/landing-custom.php on line 81
-

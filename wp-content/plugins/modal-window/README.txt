@@ -1,18 +1,19 @@
 === Modal Window - create popup modal window ===
 Contributors: Wpcalc
 Donate link: https://wow-estore.com/item/wow-modal-windows-pro/
-Tags: modal window, modal windows, popup, lightbox, notifications, 
-Requires at least: 3.2
-Tested up to: 5.1
+Tags: modal, modal window, modal popup, lightbox, popup, 
+Requires at least: 4.3
+Tested up to: 5.2
+Requires PHP: 5.3
 Stable tag: trunk
-Requires PHP: 5.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Modal Window - WordPress plugin for creating popup modal window with any kind of content and settings. Simple popup modal window builder plugin.
+WordPress popup plugin for easily create popup and modal window with any kind of content and settings.
 
 == Description ==
-Use the free Modal Window plugin to quickly and easily create informative pop-ups. Add the text and media you need, insert shortcodes of forms and much more. Change the behavior of the display of modal windows depending on the user's actions on the page. 
+
+Use the free WordPress popup plugin "Modal Window" to quickly and easily create informative popups. Add the text and media you need, insert shortcodes of forms and much more. Change the behavior of the display of modal windows depending on the user's actions on the page. 
 
 The Modal Window is the unique tool for free use. With its help you can add bright information popup messages to the site, warn visitors about various promotions, display contact forms to increase the conversion of the resource. The WordPress popup plugin will allow you to set the data display in the new format.
 
@@ -183,6 +184,15 @@ Yes, you can inert any shortcode into the content of modal window
 
 
 == Changelog ==
+= 4.0.3 =
+Fixed: link to the Settings
+
+= 4.0.2 =
+Fixed: option 'Show only once'
+
+= 4.0.1 = 
+Fixed: using old shortcode
+
 = 4.0 = 
 * Added: Options for modal window style: z-index, position, overlay, top location, border style, content font-size
 * Added: Title of the modal window

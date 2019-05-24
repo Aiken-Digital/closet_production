@@ -2786,8 +2786,8 @@ p.stars.selected a::before {
 	}
 
 .woocommerce .sr-checkout-order #payment ul li .payment_box {
-	margin-left: 25px;
-	margin-bottom: 30px;
+	margin-left: 5px;
+	margin-bottom: 0px;
 	color: rgba(0,0,0,0.41);
 	font-size: 0.85em;
 }

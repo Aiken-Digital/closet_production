@@ -34,7 +34,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		<table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents">
 			<tbody>
-				<?php do_action( 'woocommerce_before_cart_contents' ); ?>
+				<?php //do_action( 'woocommerce_before_cart_contents' ); ?>
 
 				<?php
 				foreach ( WC()->cart->get_cart() as $cart_item_key => $cart_item ) {
@@ -70,13 +70,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 									// Backorder notification
 									if ( $_product->backorders_require_notification() && $_product->is_on_backorder( $cart_item['quantity'] ) ) {
-										echo '<p class="backorder_notification">' . esc_html__( 'Available on backorder', 'kona' ) . '</p>';
+										echo '<p class="backorder_notification">' . esc_html__( '[:jp]バックオーダー可能[:en]Available on backorder', 'kona' ) . '</p>';
 									}
 								?>
 								</div>
 							</td>
 
-							<td class="product-quantity" data-title="<?php esc_attr_e( 'Quantity', 'kona' ); ?>">
+							<td class="product-quantity" data-title="<?php esc_attr_e( '[:jp]量[:en]Quantity', 'kona' ); ?>">
 								<?php
 									// displayed on mobile devices
 									echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key );
@@ -102,7 +102,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 									echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf(
 										'<a href="%s" class="remove" aria-label="%s" data-product_id="%s" data-product_sku="%s">%s</a>',
 										esc_url( wc_get_cart_remove_url( $cart_item_key ) ),
-										esc_html__( 'Remove this item', 'kona' ),
+										esc_html__( '[:jp]このアイテムを削除[:en]Remove this item', 'kona' ),
 										esc_attr( $product_id ),
 										esc_attr( $_product->get_sku() ),
 										""
@@ -110,7 +110,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 								?>
 							</td>
 
-							<td class="product-subtotal" data-title="<?php esc_attr_e( 'Total', 'kona' ); ?>">
+							<td class="product-subtotal" data-title="<?php esc_attr_e( '[:jp]合計[:en]Total', 'kona' ); ?>">
 								<?php
 									echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key );
 								?>
@@ -119,10 +119,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 									echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf(
 										'<a href="%s" class="remove" aria-label="%s" data-product_id="%s" data-product_sku="%s">%s</a>',
 										esc_url( wc_get_cart_remove_url( $cart_item_key ) ),
-										esc_html__( 'Remove this item', 'kona' ),
+										esc_html__( '[:jp]このアイテムを削除[:en]Remove this item', 'kona' ),
 										esc_attr( $product_id ),
 										esc_attr( $_product->get_sku() ),
-										esc_html__( 'Remove', 'kona' )
+										esc_html__( '[:jp]削除する[:en]Remove', 'kona' )
 									), $cart_item_key );
 								?>
 							</td>
@@ -154,15 +154,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 	
 		<span class="sr-loader-icon"></span>
     
-        <div class="total"><h6 class="label widget-title"><?php _e( 'Total', 'kona' ); ?></h6> <?php echo WC()->cart->get_cart_subtotal(); ?></div>
+        <div class="total"><h6 class="label widget-title"><?php _e( '[:jp]合計[:en]Total', 'kona' ); ?></h6> <?php echo WC()->cart->get_cart_subtotal(); ?></div>
     
         <?php do_action( 'woocommerce_widget_shopping_cart_before_buttons' ); ?>
     
         <div class="buttons">
            	<a href="<?php echo esc_url( wc_get_checkout_url() ); ?>" class="sr-button withicon">
 				<span class="text">
-					<span><?php _e( 'Checkout', 'kona' ); ?></span>
-					<span><?php _e( 'Checkout', 'kona' ); ?></span>
+					<span><?php _e( '[:jp]チェックアウト[:en]Checkout', 'kona' ); ?></span>
+					<span><?php _e( '[:jp]チェックアウト[:en]Checkout', 'kona' ); ?></span>
 				</span>
 				<span class="icon">
 					<span class="arrow">
@@ -182,8 +182,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		<div class="empty-cart">
 			<div class="empty-icon">0</div>
-			<div class="empty-main-text h4"><strong><?php _e( 'Your cart is empty', 'kona' ); ?></strong></div>
-			<div class="empty-sub-text title-alt"><?php _e( "Looks like you haven't made your choice yet", 'kona' ); ?></div>
+			<div class="empty-main-text h4"><strong><?php _e( '[:jp]買い物かごには商品が入っていません[:en]Your cart is empty', 'kona' ); ?></strong></div>
+			<div class="empty-sub-text title-alt"><?php _e( "[:jp]ショップへ戻り、商品をお選びください。[:en]Looks like you haven't made your choice yet", 'kona' ); ?></div>
 		</div>
 
 <?php endif; ?> 

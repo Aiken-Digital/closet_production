@@ -44,7 +44,7 @@ class Wow_Public_Class {
 		add_shortcode( $this->shortcode, array( $this, 'shortcode' ) );
 
     // old shortcode
-		add_shortcode( 'Wow-Modal-Windows-Pro', array( $this, 'shortcode' ) );
+		add_shortcode( 'Wow-Modal-Windows', array( $this, 'shortcode' ) );
 
     // shortcode for icon
     add_shortcode('wow-icon', array($this, 'shortcode_icon') );

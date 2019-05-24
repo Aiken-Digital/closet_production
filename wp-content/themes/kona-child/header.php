@@ -57,7 +57,7 @@
         <div class="wrapper top-nav-wrap">
             <div class="top-nav--lay">   
                 <div class="top-nav--lay__left">
-                    <p><?php echo $data['sign_text'];?></p>
+                    <p><?php echo $data['general']['sign_text'];?></p>
                 </div>
                 <div class="top-nav--lay__right">
                     <div class="currency">
@@ -77,14 +77,16 @@
                         </select>
                     </div>
                     <div class="lan">
-                        <a <?php if (strpos($_SERVER['REQUEST_URI'], '/jp') === false) { echo 'class="active" style="opacity: 1;"'; } else { echo 'style="opacity: 0.5;"'; } ?> href="<?php echo get_bloginfo('wpurl') ?>/en/<?php echo language_param();?>">
+                        <a <?php if (strpos($_SERVER['REQUEST_URI'], '/jp') === false) { echo 'class="active" style="opacity: 1;"'; } else { echo 'style="opacity: 1;"'; } ?> href="<?php echo get_bloginfo('wpurl') ?>/en/<?php echo language_param();?>">
                              <img src="<?php template_dir();?>/files/assets/landing/sg.png">
+                             <span class="d-none d-md-block">EN</span>
                         </a>
-                        <div class="divide">
+                        <!-- <div class="divide">
                             |
-                        </div>
-                        <a <?php if (strpos($_SERVER['REQUEST_URI'], '/jp') !== false) { echo 'class="active" style="opacity: 1;"'; } else { echo 'style="opacity: 0.5;"'; } ?> href="<?php echo get_bloginfo('wpurl') ?>/jp/<?php echo language_param();?>">
+                        </div> -->
+                        <a <?php if (strpos($_SERVER['REQUEST_URI'], '/jp') !== false) { echo 'class="active" style="opacity: 1;"'; } else { echo 'style="opacity: 1;"'; } ?> href="<?php echo get_bloginfo('wpurl') ?>/jp/<?php echo language_param();?>">
                              <img src="<?php template_dir();?>/files/assets/landing/jp.png">
+                             <span class="d-none d-md-block">日本</span>
                         </a>
                     </div>
                 </div>
@@ -101,8 +103,8 @@
             <!-- LOGO -->
             <div id="logo" class="<?php echo esc_attr($classLogo); ?>">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                    <?php //kona_get_logo(); ?>
-					<img src="<?php template_dir(); ?>/files/assets/closet-logo.png">
+                    <?php kona_get_logo(); ?>
+					<!--<img src="<?php template_dir(); ?>/files/assets/closet-logo.png">-->
                 </a>
             </div>
             
@@ -115,9 +117,9 @@
                     <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" class="login-open">
                         <span class="text">
                         <?php   if (!is_user_logged_in()) { 
-                                    echo esc_html__("[:jp]ログイン[:en]Login", 'kona');
+                                    echo esc_html__("[:jp]ログイン[:en]LOGIN", 'kona');
                                 } else {
-                                    echo esc_html__("[:jp]マイアカウント[:en]My Account", 'kona');
+                                    echo esc_html__("[:jp]マイアカウント[:en]MY ACCOUNT", 'kona');
                                 }
                         ?>
                         </span>
@@ -138,7 +140,8 @@
                     </svg>
                 </a></div>
                 <?php } ?>
-                <?php if (class_exists( 'TInvWL_Public_TInvWL' ) ) { kona_woo_wishlist_menu(); } ?>
+                <?php if (class_exists( 'TInvWL_Public_TInvWL' ) ) { kona_woo_wishlist_menu();
+                } ?>
                 <?php if (class_exists('Woocommerce') && (get_option('_sr_shopminicart') || !get_option('_sr_optiontree')) ) { kona_woo_minicart_menu(); } ?>
             </div> <!-- END .menu-actions -->
            
@@ -149,9 +152,9 @@
                     <?php if (class_exists('Woocommerce') && get_option('_sr_shoplogin') && get_option('_sr_shoploginappearance') !== 'icon' ) { ?>
                     <div class="menu-login">
                         <?php if (!is_user_logged_in()) { ?>
-                        <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" class="login-open"><?php echo esc_html__("Login", 'kona') ?></a></div>
+                        <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" class="login-open"><?php echo esc_html__("LOGIN", 'kona') ?></a></div>
                         <?php } else { ?>
-                        <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" class="login-open"><?php echo esc_html__("My Account", 'kona') ?></a></div>
+                        <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" class="login-open"><?php echo esc_html__("MY ACCOUNT", 'kona') ?></a></div>
                         <?php }  ?>
                     <?php } ?>
                     <div class="scroll-menu">

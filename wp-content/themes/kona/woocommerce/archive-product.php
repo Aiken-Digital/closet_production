@@ -38,22 +38,41 @@ if (isset($_GET['gridwidth'])) { $gridWidth = $_GET['gridwidth']; }
 // Add Shop title (default / category / search)
 add_action( 'woocommerce_before_main_content', 'kona_maintitle_start', 19 );
 function kona_maintitle_start() {
-	if (is_product_category()) {
+    global $post;
+    if (is_product_category()) {
 		global $wp_query;
 		$cat = $wp_query->get_queried_object();
 		$title = $cat->name;
 	} else if (is_search()) {
 		$titles = kona_getTitle();
 		$title = $titles['title'].' "'.$titles['tax'].'"';
+	} else if (is_tax( 'product_brand' )) {
+	    global $wp_query;
+		$cat = $wp_query->get_queried_object();
+		$title = $cat->name;
 	} else {
 		$title = __( 'Shop', 'kona' );
 	}
-
-	if ($title === 'Shop') {
-		echo '<div class="woo_main_title">';
-	} else {
+// 	if (is_product_category()) {
+// 		global $wp_query;
+// 		$cat = $wp_query->get_queried_object();
+// 		$title = $cat->name;
+// 	} else if (is_search()) {
+// 		$titles = kona_getTitle();
+// 		$title = $titles['title'].' "'.$titles['tax'].'"';
+// 	} else if (is_product_category('product_brand')) {
+	   // global $wp_query;
+// 		$cat = $wp_query->get_queried_object();
+// 		$title = $cat->name;
+// 	} else {
+// 		$title = __( 'Shop', 'kona' );
+// 	}
+// 
+// 	if ($title === 'Shop') {
 		echo '<div class="woo_main_title"><h3 class="main_title"><strong>' . esc_html($title) . '</strong></h3>';
-	}
+// 	} else {
+// 		echo '<div class="woo_main_title"><h3 class="main_title"><strong>' . get_the_title(). '</strong></h3>';)
+// 	}
 }
 add_action( 'woocommerce_before_main_content', 'kona_maintitle_end', 21 );
 function kona_maintitle_end() { 

@@ -32,14 +32,37 @@ if( function_exists( 'acf_add_options_page' ) ) {
 
 }
 
+
 function woocommerce_brand_summary() {
 	global $post;
 	$brands = wp_get_post_terms( $post->ID, 'product_brand', array("fields" => "all") );
 	foreach( $brands as $brand ) {
-		echo '<h3>'.$brand->name.'</h3>';
+        $url = home_url().'/designer/'.$brand->slug;
+		echo '<h3><a href="'.$url.'" target="_blank" title="'.$brand->name.'">'.$brand->name.'</a></h3>';
 		_e('<p>'.$brand->description.'</p>');
 	}
 }
+
+function woocommerce_brand_name()
+{
+    global $post;
+    $brands = wp_get_post_terms( $post->ID, 'product_brand', array('fields' => 'all'));
+    foreach ($brands as $brand) {
+        echo $brand->name;
+        if ($i >= 1) {break;}
+    }
+}
+
+function woocommerce_category_name()
+{
+    global $post;
+    $brands = wp_get_post_terms( $post->ID, 'product_cat', array('fields' => 'all'));
+    foreach ($brands as $brand) {
+        echo $brand->name;
+        if ($i >= 1) {break;}
+    }
+}
+
 add_shortcode('brand_summary', 'woocommerce_brand_summary');
 
 function get_all_brand()
@@ -84,7 +107,7 @@ function my_account_menu_order() {
  		'orders'             => __( '[:jp]注文・注文履歴[:en]Orders', 'woocommerce' ),
  		'edit-address'       => __( '[:jp]登録住所[:en]Addresses', 'woocommerce' ),
  		'edit-account'    	 => __( '[:jp]基本情報[:en]Account Details', 'woocommerce' ),
-		'woo-wallet'		 =>	__( '[:jp]私の財布[:en]My Wallet', 'woocommerce' ),
+// 		'woo-wallet'		 =>	__( '[:jp]私の財布[:en]My Wallet', 'woocommerce' ),
 		'tinv_wishlist'      => __( '[:jp]ほしい物リスト[:en]Wishlist', 'woocommerce' ),
 		'customer-logout'    => __( '[:jp]ログアウト[:en]Logout', 'woocommerce' ),
  	);
@@ -95,6 +118,15 @@ function remove_my_account_links( $menu_links ){
     unset( $menu_links['refund-requests'] ); 
     return $menu_links;
 }
+
+function convert_to_jpy($val)
+{   
+  global $WOOCS;
+  $currencies = $WOOCS->get_currencies();
+  $val = $val * number_format($currencies['JPY']['rate'], 2);
+  return '¥'.number_format($val);
+}
+
 
 add_filter ( 'woocommerce_account_menu_items', 'remove_my_account_links', 999 );
 add_filter ( 'woocommerce_account_menu_items', 'my_account_menu_order' );

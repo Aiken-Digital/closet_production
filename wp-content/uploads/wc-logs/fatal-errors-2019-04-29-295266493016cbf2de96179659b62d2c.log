@@ -1,0 +1,27 @@
+2019-04-29T07:48:03+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/fixxstaging/public_html/closet/wp-content/plugins/a2z-dhl-express-shipping/controllors/a2z_dhlexpress_init.php:368
+Stack trace:
+#0 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(233): A2Z_Dhlexpress->calculate_shipping(Array)
+#1 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(327): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(254): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1232): WC_Shipping->calculate_shipping(Array)
+#4 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(344): WC_Cart->calculate_shipping()
+#5 /home/fixxstaging/public_html/closet/wp-content/pl: /home/fixxstaging/public_html/closet/wp-content/plugins/a2z-dhl-express-shipping/controllors/a2z_dhlexpress_init.php の行368
+
+2019-04-29T15:02:02+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/fixxstaging/public_html/closet/wp-content/plugins/a2z-dhl-express-shipping/controllors/a2z_dhlexpress_init.php:368
+Stack trace:
+#0 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(233): A2Z_Dhlexpress->calculate_shipping(Array)
+#1 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(327): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(254): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1232): WC_Shipping->calculate_shipping(Array)
+#4 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(344): WC_Cart->calculate_shipping()
+#5 /home/fixxstaging/public_html/closet/wp-content/pl: /home/fixxstaging/public_html/closet/wp-content/plugins/a2z-dhl-express-shipping/controllors/a2z_dhlexpress_init.php の行368
+
+2019-04-29T15:03:11+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/fixxstaging/public_html/closet/wp-content/plugins/a2z-dhl-express-shipping/controllors/a2z_dhlexpress_init.php:368
+Stack trace:
+#0 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(233): A2Z_Dhlexpress->calculate_shipping(Array)
+#1 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(327): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(254): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1232): WC_Shipping->calculate_shipping(Array)
+#4 /home/fixxstaging/public_html/closet/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(344): WC_Cart->calculate_shipping()
+#5 /home/fixxstaging/public_html/closet/wp-content/pl: /home/fixxstaging/public_html/closet/wp-content/plugins/a2z-dhl-express-shipping/controllors/a2z_dhlexpress_init.php の行368
+

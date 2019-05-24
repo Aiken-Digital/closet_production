@@ -181,6 +181,9 @@ if ($showvariation) {
 		
 
 		<div class="product-meta">	
+		<span class="brand-product">
+			<?php woocommerce_brand_name();?>
+		</span>
 		<?php echo '<h5 class="product-name '.esc_attr($titlesize).' "><a href="'.get_the_permalink().'">'.get_the_title().'</a></h5>'; ?>
 
 		<?php
