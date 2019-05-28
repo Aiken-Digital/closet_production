@@ -33,17 +33,17 @@ if ( isset( $_GET['rsd'] ) ) { // http://cyber.law.harvard.edu/blogs/gems/tech/r
 	header( 'Content-Type: text/xml; charset=' . get_option( 'blog_charset' ), true );
 	echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>';
 	?>
-<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
-	<service>
-		<engineName>WordPress</engineName>
-		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink><?php bloginfo_rss( 'url' ); ?></homePageLink>
-		<apis>
-			<api name="WordPress" blogID="1" preferred="true" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
-			<api name="Movable Type" blogID="1" preferred="false" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
-			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
-			<api name="Blogger" blogID="1" preferred="false" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
-			<?php
+	<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+		<service>
+			<engineName>WordPress</engineName>
+			<engineLink>https://wordpress.org/</engineLink>
+			<homePageLink><?php bloginfo_rss( 'url' ); ?></homePageLink>
+			<apis>
+				<api name="WordPress" blogID="1" preferred="true" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
+					<api name="Movable Type" blogID="1" preferred="false" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
+						<api name="MetaWeblog" blogID="1" preferred="false" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
+							<api name="Blogger" blogID="1" preferred="false" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
+								<?php
 			/**
 			 * Add additional APIs to the Really Simple Discovery (RSD) endpoint.
 			 *
@@ -56,8 +56,8 @@ if ( isset( $_GET['rsd'] ) ) { // http://cyber.law.harvard.edu/blogs/gems/tech/r
 		</apis>
 	</service>
 </rsd>
-	<?php
-	exit;
+<?php
+exit;
 }
 
 include_once( ABSPATH . 'wp-admin/includes/admin.php' );

@@ -1,0 +1,90 @@
+2019-05-28T00:12:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WOOCS::woocommerce_add_to_cart_hash(), 1 passed in C:\laragon\www\closet\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php:438
+Stack trace:
+#0 C:\laragon\www\closet\wp-includes\class-wp-hook.php(288): WOOCS->woocommerce_add_to_cart_hash('83007ade6600a34...')
+#1 C:\laragon\www\closet\wp-includes\plugin.php(208): WP_Hook->apply_filters('83007ade6600a34...', Array)
+#2 C:\laragon\www\closet\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(182): apply_filters('woocommerce_add...', '83007ade6600a34...', Array)
+#3 C:\laragon\www\closet\wp-includes\class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments('')
+#4 C:\laragon\www\closet\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\closet\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\laragon\www\closet\wp-content\plugins\woocommerce\i in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php on line 438
+
+2019-05-28T00:27:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WOOCS::woocommerce_add_to_cart_hash(), 1 passed in C:\laragon\www\closet\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php:438
+Stack trace:
+#0 C:\laragon\www\closet\wp-includes\class-wp-hook.php(288): WOOCS->woocommerce_add_to_cart_hash('83007ade6600a34...')
+#1 C:\laragon\www\closet\wp-includes\plugin.php(208): WP_Hook->apply_filters('83007ade6600a34...', Array)
+#2 C:\laragon\www\closet\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(182): apply_filters('woocommerce_add...', '83007ade6600a34...', Array)
+#3 C:\laragon\www\closet\wp-includes\class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments('')
+#4 C:\laragon\www\closet\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\closet\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\laragon\www\closet\wp-content\plugins\woocommerce\i in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php on line 438
+
+2019-05-28T00:28:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WOOCS::woocommerce_add_to_cart_hash(), 1 passed in C:\laragon\www\closet\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php:438
+Stack trace:
+#0 C:\laragon\www\closet\wp-includes\class-wp-hook.php(288): WOOCS->woocommerce_add_to_cart_hash('83007ade6600a34...')
+#1 C:\laragon\www\closet\wp-includes\plugin.php(208): WP_Hook->apply_filters('83007ade6600a34...', Array)
+#2 C:\laragon\www\closet\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(182): apply_filters('woocommerce_add...', '83007ade6600a34...', Array)
+#3 C:\laragon\www\closet\wp-includes\class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments('')
+#4 C:\laragon\www\closet\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\closet\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\laragon\www\closet\wp-content\plugins\woocommerce\i in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php on line 438
+
+2019-05-28T00:29:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WOOCS::woocommerce_add_to_cart_hash(), 1 passed in C:\laragon\www\closet\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php:438
+Stack trace:
+#0 C:\laragon\www\closet\wp-includes\class-wp-hook.php(288): WOOCS->woocommerce_add_to_cart_hash('83007ade6600a34...')
+#1 C:\laragon\www\closet\wp-includes\plugin.php(208): WP_Hook->apply_filters('83007ade6600a34...', Array)
+#2 C:\laragon\www\closet\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(182): apply_filters('woocommerce_add...', '83007ade6600a34...', Array)
+#3 C:\laragon\www\closet\wp-includes\class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments('')
+#4 C:\laragon\www\closet\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\closet\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\laragon\www\closet\wp-content\plugins\woocommerce\i in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php on line 438
+
+2019-05-28T00:31:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WOOCS::woocommerce_add_to_cart_hash(), 1 passed in C:\laragon\www\closet\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php:438
+Stack trace:
+#0 C:\laragon\www\closet\wp-includes\class-wp-hook.php(288): WOOCS->woocommerce_add_to_cart_hash('83007ade6600a34...')
+#1 C:\laragon\www\closet\wp-includes\plugin.php(208): WP_Hook->apply_filters('83007ade6600a34...', Array)
+#2 C:\laragon\www\closet\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(182): apply_filters('woocommerce_add...', '83007ade6600a34...', Array)
+#3 C:\laragon\www\closet\wp-includes\class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments('')
+#4 C:\laragon\www\closet\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\closet\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\laragon\www\closet\wp-content\plugins\woocommerce\i in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php on line 438
+
+2019-05-28T00:32:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WOOCS::woocommerce_add_to_cart_hash(), 1 passed in C:\laragon\www\closet\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php:438
+Stack trace:
+#0 C:\laragon\www\closet\wp-includes\class-wp-hook.php(288): WOOCS->woocommerce_add_to_cart_hash('83007ade6600a34...')
+#1 C:\laragon\www\closet\wp-includes\plugin.php(208): WP_Hook->apply_filters('83007ade6600a34...', Array)
+#2 C:\laragon\www\closet\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(182): apply_filters('woocommerce_add...', '83007ade6600a34...', Array)
+#3 C:\laragon\www\closet\wp-includes\class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments('')
+#4 C:\laragon\www\closet\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\closet\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\laragon\www\closet\wp-content\plugins\woocommerce\i in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php on line 438
+
+2019-05-28T00:33:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WOOCS::woocommerce_add_to_cart_hash(), 1 passed in C:\laragon\www\closet\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php:438
+Stack trace:
+#0 C:\laragon\www\closet\wp-includes\class-wp-hook.php(288): WOOCS->woocommerce_add_to_cart_hash('83007ade6600a34...')
+#1 C:\laragon\www\closet\wp-includes\plugin.php(208): WP_Hook->apply_filters('83007ade6600a34...', Array)
+#2 C:\laragon\www\closet\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(182): apply_filters('woocommerce_add...', '83007ade6600a34...', Array)
+#3 C:\laragon\www\closet\wp-includes\class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments('')
+#4 C:\laragon\www\closet\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\closet\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\laragon\www\closet\wp-content\plugins\woocommerce\i in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php on line 438
+
+2019-05-28T00:34:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WOOCS::woocommerce_add_to_cart_hash(), 1 passed in C:\laragon\www\closet\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php:438
+Stack trace:
+#0 C:\laragon\www\closet\wp-includes\class-wp-hook.php(288): WOOCS->woocommerce_add_to_cart_hash('83007ade6600a34...')
+#1 C:\laragon\www\closet\wp-includes\plugin.php(208): WP_Hook->apply_filters('83007ade6600a34...', Array)
+#2 C:\laragon\www\closet\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(182): apply_filters('woocommerce_add...', '83007ade6600a34...', Array)
+#3 C:\laragon\www\closet\wp-includes\class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments('')
+#4 C:\laragon\www\closet\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\closet\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\laragon\www\closet\wp-content\plugins\woocommerce\i: C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php の行438
+
+2019-05-28T00:34:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WOOCS::woocommerce_add_to_cart_hash(), 1 passed in C:\laragon\www\closet\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php:438
+Stack trace:
+#0 C:\laragon\www\closet\wp-includes\class-wp-hook.php(288): WOOCS->woocommerce_add_to_cart_hash('83007ade6600a34...')
+#1 C:\laragon\www\closet\wp-includes\plugin.php(208): WP_Hook->apply_filters('83007ade6600a34...', Array)
+#2 C:\laragon\www\closet\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(182): apply_filters('woocommerce_add...', '83007ade6600a34...', Array)
+#3 C:\laragon\www\closet\wp-includes\class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments('')
+#4 C:\laragon\www\closet\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\closet\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\laragon\www\closet\wp-content\plugins\woocommerce\i: C:\laragon\www\closet\wp-content\plugins\woocommerce-currency-switcher\classes\woocs_after_33.php の行438
+

@@ -84,7 +84,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<tfoot>
 
 		<tr class="cart-subtotal">
-			<th><?php _e( 'Subtotal', 'kona' ); ?></th>
+			<th><?php _e( '[:jp]小計[:en]Subtotal', 'kona' ); ?></th>
 			<?php 
 			if (qtranxf_getLanguage() == 'en') { ?>
 				<td><?php wc_cart_totals_subtotal_html(); ?></td>
@@ -93,19 +93,57 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php } ?>	
 		</tr>
 
-		<?php foreach ( WC()->cart->get_coupons() as $code => $coupon ) : ?>
-		<tr class="cart-discount coupon-<?php echo esc_attr( sanitize_title( $code ) ); ?>">
-			<th><?php wc_cart_totals_coupon_label( $coupon ); ?></th>
-			<td><?php wc_cart_totals_coupon_html( $coupon ); ?></td>
-		</tr>
-	<?php endforeach; ?>
+		<?php
+		$discount_excl_tax_total = WC()->cart->get_cart_discount_total();
+		$discount_tax_total = WC()->cart->get_cart_discount_tax_total();
+		$discount_total = $discount_excl_tax_total + $discount_tax_total;
+		if( ! empty($discount_total) ): ?>
+			<?php foreach ( WC()->cart->get_coupons() as $code => $coupon ) : ?>
+			<tr class="cart-discount coupon-<?php echo esc_attr( sanitize_title( $code ) ); ?>">
+				<th><?php _e('[:jp]クーポン：[:en]Coupon :','woocommerce'); ?> <?= $code ;?></th>
+				<?php 
+				if (qtranxf_getLanguage() == 'en') { ?>
+					<td><?php echo wc_price(-$discount_total) ?> <a href="<?= site_url();?>/checkout/?remove_coupon=<?= $code;?>" class="woocommerce-remove-coupon" data-coupon="alldebora">[Remove]</a></td>
+				<?php } elseif (qtranxf_getLanguage() == 'jp') { ?>
+					<td><?php echo '-'.convert_to_jpy($discount_total); ?> <a href="<?= site_url();?>/checkout/?remove_coupon=<?= $code;?>" class="woocommerce-remove-coupon" data-coupon="alldebora">[削除する]</a></td>
+				<?php } ?>	
+				
+			</tr>
+		<?php endforeach;?>
+	<?php endif; ?>
+
 
 	<?php if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
 
 	<?php do_action( 'woocommerce_review_order_before_shipping' ); ?>
+	<?php 
+	if (WC()->customer->get_shipping_country() === 'SG') {
+		wc_cart_totals_shipping_html();
+	} else if (WC()->customer->get_shipping_country() === 'JP') {
+		foreach (WC()->session->get('shipping_for_package_0')['rates'] as $key => $value) {
+			if (WC()->session->get('chosen_shipping_methods')[0] == $key) {
+				$label = $value->label;
+				$cost = $value->cost;
+				$tax = 0;
+				foreach ($value->taxes as $taxes) {
+					$tax += floatval($taxes);
+				}
+				$rate_cost_tax = $cost + $tax;
+				echo '<tr class="shipping">';
+				_e('<th>[:jp]配送[:en]Shipping</th>');
+				echo '<td data-title="Shipping">';
+				echo $label.' - ';
+				if (qtranxf_getLanguage() == 'en') {
+					echo '<span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>'.$rate_cost_tax.'</span> <input type="hidden" name="shipping_method[0]" data-index="0" id="shipping_method_0" value="'.$key.'" class="shipping_method"></td></tr>';
+				} else {
+					echo '<span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"></span>'.convert_to_jpy($rate_cost_tax).'</span> <input type="hidden" name="shipping_method[0]" data-index="0" id="shipping_method_0" value="'.$key.'" class="shipping_method"></td></tr>';
+				}
+				break;
+			}
+		}
+	}
 
-	<?php wc_cart_totals_shipping_html(); ?>
-
+	?>
 	<?php do_action( 'woocommerce_review_order_after_shipping' ); ?>
 
 <?php endif; ?>
@@ -136,21 +174,20 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php do_action( 'woocommerce_review_order_before_order_total' ); ?>
 
 <tr class="order-total">
-	<th><?php _e( 'Total', 'kona' ); ?></th>
+	<th><?php _e( '[:jp]合計[:en]Total', 'kona' ); ?></th>
 	<?php 
 	if ( ! WC()->cart->prices_include_tax ) {
-		$amount = WC()->cart->cart_contents_total;
+		$amount = WC()->cart->total;
 	} else {
-		$amount = WC()->cart->cart_contents_total + WC()->cart->tax_total;
+		$amount = WC()->cart->total + WC()->cart->tax_total;
 	}?>
 
 	<?php 
 	if (qtranxf_getLanguage() == 'en') { ?>
 		<td><?php echo WC()->cart->get_total(); ;?></td>
 	<?php } elseif (qtranxf_getLanguage() == 'jp') { ?>
-		<td><?php echo convert_to_jpy($amount);?><br><small>(<?php wc_cart_totals_order_total_html(); ?>)</small><br>Payment will be charged in SGD</td>
+		<td><div style="font-weight: 300;"><?php echo convert_to_jpy($amount);?> <small style="font-weight: 500;">(<?php wc_cart_totals_order_total_html(); ?>)</small></div><div style="font-size: 12px;" ><i><?php _e('[:jp]支払いはSGDで行われます[:en]Payment will be charged in SGD');?></i></div></td>
 	<?php } ?>	
-	
 </tr>
 
 <?php do_action( 'woocommerce_review_order_after_order_total' ); ?>
